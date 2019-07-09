@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons/commons.basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons/commons.constant" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons/commons.http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons/commons.utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons/commons.web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.orm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.orm/orm.jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.orm/orm.mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.security/security.shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.security/security.spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools/tools.es" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools/tools.kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools/tools.sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools/tools.solr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools/tools.ueditor" charset="UTF-8" />
+  </component>
+</project>

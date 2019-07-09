@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tools.ueditor" />
+        <module name="tools.solr" />
+        <module name="commons.http" />
+        <module name="commons.utils" />
+        <module name="orm.jpa" />
+        <module name="commons.basic" />
+        <module name="commons.web" />
+        <module name="orm.mybatis" />
+        <module name="tools.es" />
+        <module name="security.shiro" />
+        <module name="tools.pay" />
+        <module name="commons.constant" />
+        <module name="tools.kafka" />
+        <module name="security.spring" />
+        <module name="tools.sms" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commons.constant" options="" />
+      <module name="commons.utils" options="" />
+      <module name="develop.security" options="" />
+      <module name="orm.jpa" options="" />
+      <module name="orm.mybatis" options="" />
+    </option>
+  </component>
+</project>
