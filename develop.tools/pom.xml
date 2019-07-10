@@ -12,10 +12,9 @@
     <modules>
         <module>tools.sms</module>
         <module>tools.ueditor</module>
-        <module>tools.solr</module>
         <module>tools.kafka</module>
         <module>tools.pay</module>
-        <module>tools.es</module>
+        <module>tools.oss</module>
     </modules>
     <artifactId>develop.tools</artifactId>
 

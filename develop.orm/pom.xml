@@ -12,6 +12,8 @@
     <modules>
         <module>orm.jpa</module>
         <module>orm.mybatis</module>
+        <module>orm.es</module>
+        <module>orm.solr</module>
     </modules>
     <artifactId>develop.orm</artifactId>
 

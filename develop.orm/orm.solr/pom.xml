@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>tools.solr</artifactId>
+    <artifactId>orm.solr</artifactId>
 
-    <name>Develop Tools Solr</name>
+    <name>Develop Orm Solr</name>
     <description>Solr支持</description>
 
     <dependencies>
