@@ -33,7 +33,7 @@ public class QiniuOssServiceImpl implements FileService, InitializingBean {
 	@Value("${qiniu.oss.bucketName:5CBWKFd1pP-OSiusd1Bvhokp-ih4i3bs2QA2r-U2}")
 	private String bucket;
 
-	@Value("${qiniu.oss.endpoint:http://payo7kq4i.bkt.clouddn.com}")
+	@Value("${qiniu.oss.endpoint:pugech0l5.bkt.clouddn.com}")
 	private String endpoint;
 
 	private StringMap putPolicy;
@@ -45,7 +45,7 @@ public class QiniuOssServiceImpl implements FileService, InitializingBean {
 		} catch (Exception e) {
 			return "";
 		}
-		return bucket + "/" + file.getOriginalFilename();
+		return endpoint + "/" + file.getOriginalFilename();
 	}
 	@Override
 	public void afterPropertiesSet(){

@@ -8,7 +8,12 @@ aliyun:
 
 qiniu:
   oss:
-    access-key: owGiAWGn6DpU5zlrfLP4K9iQusahmspTW6PxRABW
-    accessKeySecret: 5CBWKFd1pP-OSiusd1Bvhokp-ih4i3bs2QA2r-U2
-    endpoint: http://payo7kq4i.bkt.clouddn.com
-    bucketName: owenwangwen
+    access-key: j8lWlajTA7JC2h3lfKRmoP7TlgR9nHPyiYLsItP_
+    accessKeySecret: lqSnqS6DXxMknd1F5zMDmufXHX7Mutp7BeSCCE3E
+    endpoint: http://pugech0l5.bkt.clouddn.com
+    bucketName: aaa
+spring:
+  servlet:
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 100MB

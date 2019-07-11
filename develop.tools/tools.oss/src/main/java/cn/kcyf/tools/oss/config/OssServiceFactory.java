@@ -34,10 +34,10 @@ public class OssServiceFactory {
     }
 
     public FileService getFileService(String fileType) {
-        return map.get(FileType.valueOf(fileType));
+        return getFileService(FileType.valueOf(fileType));
     }
 
     public FileService getFileService(FileType fileType) {
-        return getFileService(fileType);
+        return map.get(fileType);
     }
 }
