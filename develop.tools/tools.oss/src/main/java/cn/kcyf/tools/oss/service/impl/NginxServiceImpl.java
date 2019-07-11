@@ -16,9 +16,9 @@ import java.util.UUID;
  */
 @Service("nginxServiceImpl")
 public class NginxServiceImpl implements FileService {
-    @Value("${nginx.oss.uploadPath:xxx}")
+    @Value("${oss.nginx.uploadPath:xxx}")
     private String uploadPath;
-    @Value("${nginx.oss.downPath:xxx}")
+    @Value("${oss.nginx.downPath:xxx}")
     private String downPath;
 
     @Override

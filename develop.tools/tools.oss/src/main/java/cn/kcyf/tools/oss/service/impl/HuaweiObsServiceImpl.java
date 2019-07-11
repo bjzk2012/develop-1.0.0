@@ -17,7 +17,7 @@ import java.util.UUID;
  */
 @Service("huaweiObsServiceImpl")
 public class HuaweiObsServiceImpl implements FileService {
-    @Value("${huawei.oss.bucketName:xxx}")
+    @Value("${oss.huawei.bucketName:xxx}")
     public String bucketName;
     @Autowired
     public ObsClient obsClient;

@@ -1,6 +1,6 @@
 package cn.kcyf.tools.oss.model;
 
-public enum FileType {
+public enum OssType {
     // 七牛
     QINIU,
     // 阿里云

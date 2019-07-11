@@ -15,9 +15,9 @@ import java.util.UUID;
  */
 @Service("baiduBosServiceImpl")
 public class BaiduBosServiceImpl implements FileService {
-    @Value("${baidu.oss.bucketName:xxx}")
+    @Value("${oss.baidu.bucketName:xxx}")
     public String bucketName;
-    @Value("${baidu.oss.domain:xxx}")
+    @Value("${oss.baidu.domain:xxx}")
     public String domain;
     @Autowired
     private BosClient client;

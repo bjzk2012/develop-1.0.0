@@ -19,9 +19,9 @@ public class AliyunOssServiceImpl implements FileService {
     @Autowired
     private OSSClient ossClient;
 
-    @Value("${aliyun.oss.bucketName:xxx}")
+    @Value("${oss.aliyun.bucketName:xxx}")
     private String bucketName;
-    @Value("${aliyun.oss.domain:xxx}")
+    @Value("${oss.aliyun.domain:xxx}")
     private String domain;
 
     @Override

@@ -13,11 +13,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AliyunOSSConfig {
 
-	@Value("${aliyun.oss.endpoint:xxx}")
+	@Value("${oss.aliyun.endpoint:xxx}")
 	private String endpoint;
-	@Value("${aliyun.oss.access-key:xxx}")
+	@Value("${oss.aliyun.access-key:xxx}")
 	private String accessKeyId;
-	@Value("${aliyun.oss.accessKeySecret:xxx}")
+	@Value("${oss.aliyun.accessKeySecret:xxx}")
 	private String accessKeySecret;
 
 	/**
@@ -25,7 +25,7 @@ public class AliyunOSSConfig {
 	 * 只有配置了aliyun.oss.access-key才可以使用
 	 */
 	@Bean
-	@ConditionalOnProperty(name = "aliyun.oss.access-key", matchIfMissing = true)
+	@ConditionalOnProperty(name = "oss.aliyun.access-key", matchIfMissing = true)
 	public OSSClient ossClient() {
 		OSSClient ossClient = new OSSClient(endpoint, accessKeyId, accessKeySecret);
 		return ossClient;

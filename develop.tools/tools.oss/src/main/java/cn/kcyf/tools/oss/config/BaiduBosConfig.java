@@ -9,14 +9,10 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class BaiduBosConfig {
-    @Value("${baidu.oss.access-key:xxx}")
+    @Value("${oss.baidu.access-key:xxx}")
     public String accessKeyId;
-    @Value("${baidu.oss.accessKeySecret:xxx}")
+    @Value("${oss.baidu.accessKeySecret:xxx}")
     public String accessKeySecret;
-    @Value("${baidu.oss.bucketName:xxx}")
-    public String bucketName;
-    @Value("${baidu.oss.domain:xxx}")
-    public String domain;
 
     @Bean
     public BosClient bosClient(){

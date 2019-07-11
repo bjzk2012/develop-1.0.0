@@ -16,9 +16,9 @@ import org.springframework.context.annotation.Configuration;
 public class QiniuOSSConfig {
 
 	
-	@Value("${qiniu.oss.access-key:xxx}")
+	@Value("${oss.qiniu.access-key:xxx}")
 	private String accessKeyId;
-	@Value("${qiniu.oss.accessKeySecret:xxx}")
+	@Value("${oss.qiniu.accessKeySecret:xxx}")
 	private String accessKeySecret;
 
 	 

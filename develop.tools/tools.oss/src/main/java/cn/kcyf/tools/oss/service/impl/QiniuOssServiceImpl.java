@@ -28,10 +28,10 @@ public class QiniuOssServiceImpl implements FileService, InitializingBean {
 	@Autowired
 	private Auth auth;
 
-	@Value("${qiniu.oss.bucketName:xxx}")
+	@Value("${oss.qiniu.bucketName:xxx}")
 	private String bucketName;
 
-	@Value("${qiniu.oss.endpoint:xxx}")
+	@Value("${oss.qiniu.endpoint:xxx}")
 	private String endpoint;
 
 	private StringMap putPolicy;

@@ -7,11 +7,11 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class HuaweiObsConfig {
-    @Value("${huawei.oss.endpoint:xxx}")
+    @Value("${oss.huawei.endpoint:xxx}")
     private String endpoint;
-    @Value("${huawei.oss.access-key:xxx}")
+    @Value("${oss.huawei.access-key:xxx}")
     private String accessKeyId;
-    @Value("${huawei.oss.accessKeySecret:xxx}")
+    @Value("${oss.huawei.accessKeySecret:xxx}")
     private String accessKeySecret;
 
     @Bean

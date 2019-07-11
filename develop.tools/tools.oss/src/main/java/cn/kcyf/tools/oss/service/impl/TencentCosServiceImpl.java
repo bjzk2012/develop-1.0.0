@@ -15,9 +15,9 @@ import java.util.UUID;
  */
 @Service("tencentCosServiceImpl")
 public class TencentCosServiceImpl implements FileService {
-    @Value("${tencent.oss.bucketName:xxx}")
+    @Value("${oss.tencent.bucketName:xxx}")
     private String bucketName;
-    @Value("${tencent.oss.domain:xxx}")
+    @Value("${oss.tencent.domain:xxx}")
     private String domain;
 
     @Autowired

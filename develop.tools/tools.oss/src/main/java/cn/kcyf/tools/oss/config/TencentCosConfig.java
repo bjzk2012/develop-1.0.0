@@ -11,16 +11,12 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class TencentCosConfig {
-    @Value("${tencent.oss.ap:xxx}")
+    @Value("${oss.tencent.ap:xxx}")
     public String ap;
-    @Value("${tencent.oss.access-key:xxx}")
+    @Value("${oss.tencent.access-key:xxx}")
     public String accessKeyId;
-    @Value("${tencent.oss.accessKeySecret:xxx}")
+    @Value("${oss.tencent.accessKeySecret:xxx}")
     public String accessKeySecret;
-    @Value("${tencent.oss.bucketName:xxx}")
-    public String bucketName;
-    @Value("${tencent.oss.domain:xxx}")
-    public String domain;
 
     @Bean
     public COSClient cosClient() {

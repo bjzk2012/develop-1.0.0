@@ -1,6 +1,6 @@
 package cn.kcyf.tools.oss.config;
 
-import cn.kcyf.tools.oss.model.FileType;
+import cn.kcyf.tools.oss.model.OssType;
 import cn.kcyf.tools.oss.service.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,7 @@ import java.util.Map;
 @Configuration
 public class OssServiceFactory {
 
-    private Map<FileType, FileService> map = new HashMap<>();
+    private Map<OssType, FileService> map = new HashMap<>();
 
 
     @Autowired
@@ -41,19 +41,19 @@ public class OssServiceFactory {
 
     @PostConstruct
     public void init() {
-        map.put(FileType.ALIYUN, aliyunOssServiceImpl);
-        map.put(FileType.QINIU, qiniuOssServiceImpl);
-        map.put(FileType.NGINX, nginxServiceImpl);
-        map.put(FileType.TENCENT, tencentCosServiceImpl);
-        map.put(FileType.BAIDU, baiduBosServiceImpl);
-        map.put(FileType.HUAWEI, huaweiObsServiceImpl);
+        map.put(OssType.ALIYUN, aliyunOssServiceImpl);
+        map.put(OssType.QINIU, qiniuOssServiceImpl);
+        map.put(OssType.NGINX, nginxServiceImpl);
+        map.put(OssType.TENCENT, tencentCosServiceImpl);
+        map.put(OssType.BAIDU, baiduBosServiceImpl);
+        map.put(OssType.HUAWEI, huaweiObsServiceImpl);
     }
 
     public FileService getFileService(String fileType) {
-        return getFileService(FileType.valueOf(fileType));
+        return getFileService(OssType.valueOf(fileType));
     }
 
-    public FileService getFileService(FileType fileType) {
+    public FileService getFileService(OssType fileType) {
         return map.get(fileType);
     }
 }
