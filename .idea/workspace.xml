@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676e5461-c321-4627-b7f7-c32edbc55947" name="Default Changelist" comment="完善ALIYUN OSS和QINIU OSS">
-      <change afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/BaiduBosConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/HuaweiObsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/TencentCosConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduBosServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/HuaweiObsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/NginxServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/TencentCosServiceImpl.java" afterDir="false" />
+    <list default="true" id="676e5461-c321-4627-b7f7-c32edbc55947" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/AliyunOSSConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/AliyunOSSConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/OssServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/OssServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/QiniuOSSConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/QiniuOSSConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/model/FileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/model/FileType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AliyunOssServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AliyunOssServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/QiniuOssServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/QiniuOssServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.es/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/orm.es/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.sms/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,109 +51,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/pom.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
+          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.security/pom.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.security/security.spring/pom.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.security/security.shiro/pom.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.orm/pom.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.orm/orm.solr/pom.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="589">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AliyunOssServiceImpl.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="684">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduBosServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/NginxServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/QiniuOssServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/TencentCosServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.5.7/cos_api-5.5.7.jar!/com/qcloud/cos/COSClient.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="736" column="21" selection-start-line="736" selection-start-column="21" selection-end-line="736" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/FileService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/HuaweiObsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -189,6 +146,7 @@
       <find>&gt;</find>
       <find>meiqia-container</find>
       <find>COSClient</find>
+      <find>oss.</find>
     </findStrings>
     <replaceStrings>
       <replace>StringUtils.isEmpty</replace>
@@ -206,9 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/develop.tools/tools.kafka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.es/src/main/java/cn/kcyf/tools/es/models/Book.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.es/src/main/java/cn/kcyf/tools/es/config/ESConfig.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.es/src/main/java/cn/kcyf/tools/es/config/EsConfig.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.es/src/main/java/cn/kcyf/tools/es/EsApplication.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.solr/pom.xml" />
@@ -225,8 +180,6 @@
         <option value="$PROJECT_DIR$/develop.tools/tools.es/src/main/java/cn/kcyf/tools/es/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/develop.orm/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.orm/orm.es/pom.xml" />
         <option value="$PROJECT_DIR$/develop.tools/tools.sso/pom.xml" />
         <option value="$PROJECT_DIR$/develop.tools/pom.xml" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/A.java" />
@@ -239,24 +192,29 @@
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/controller/UploadController.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/NginxOssServiceImpl.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/QiniuOSSConfig.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduCosServiceImpl.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/util/CosFileUtil.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/TencentCosConfig.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/BaiduBosConfig.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/AliyunOSSConfig.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/OssServiceFactory.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/model/FileType.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/FileService.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/src/main/java/cn/kcyf/tools/pay/model/PayType.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/AliyunOSSConfig.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/HuaweiObsConfig.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduBosServiceImpl.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/QiniuOSSConfig.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/TencentCosConfig.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/BaiduBosConfig.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AliyunOssServiceImpl.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduBosServiceImpl.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/HuaweiObsServiceImpl.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/NginxServiceImpl.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/QiniuOssServiceImpl.java" />
         <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/TencentCosServiceImpl.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/FileService.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.sms/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.orm/orm.es/pom.xml" />
       </list>
     </option>
   </component>
@@ -283,18 +241,42 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Develop Tools OSS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Develop Tools OSS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Develop Tools OSS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.huaweicloud:esdk-obs-java:3.19.5" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.data:spring-data-elasticsearch:3.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.data:spring-data-elasticsearch:3.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.elasticsearch.client:transport:6.2.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.data:spring-data-elasticsearch:3.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.elasticsearch.client:transport:6.2.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.elasticsearch:elasticsearch:6.2.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -327,7 +309,59 @@
             <path>
               <item name="develop" type="b2602c69:ProjectViewProjectNode" />
               <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.orm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.orm" type="462c0819:PsiDirectoryNode" />
+              <item name="orm.es" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.orm" type="462c0819:PsiDirectoryNode" />
+              <item name="orm.jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.orm" type="462c0819:PsiDirectoryNode" />
+              <item name="orm.mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.orm" type="462c0819:PsiDirectoryNode" />
+              <item name="orm.solr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.security" type="462c0819:PsiDirectoryNode" />
+              <item name="security.shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.security" type="462c0819:PsiDirectoryNode" />
+              <item name="security.spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
               <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
+              <item name="tools.kafka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="develop" type="b2602c69:ProjectViewProjectNode" />
@@ -339,55 +373,19 @@
               <item name="develop" type="b2602c69:ProjectViewProjectNode" />
               <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
               <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools.oss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tools.pay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="develop" type="b2602c69:ProjectViewProjectNode" />
               <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
               <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools.oss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="tools.sms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="develop" type="b2602c69:ProjectViewProjectNode" />
               <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
               <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools.oss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools.oss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools.oss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oss" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools.oss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="tools.ueditor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -451,54 +449,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OSSApplication">
-    <configuration name="EsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="orm.es" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.kcyf.tools.es.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kcyf.tools.es.EsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OSSApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tools.oss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.kcyf.tools.oss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kcyf.tools.oss.OSSApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolrApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="orm.solr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.kcyf.tools.solr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kcyf.tools.solr.SolrApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.OSSApplication" />
-        <item itemvalue="Spring Boot.SolrApplication" />
-        <item itemvalue="Spring Boot.EsApplication" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -516,7 +466,7 @@
       <workItem from="1562635189279" duration="3175000" />
       <workItem from="1562739125639" duration="3968000" />
       <workItem from="1562751080839" duration="400000" />
-      <workItem from="1562806499073" duration="20800000" />
+      <workItem from="1562806499073" duration="22176000" />
     </task>
     <task id="LOCAL-00001" summary="完善ALIYUN OSS和QINIU OSS">
       <created>1562810817666</created>
@@ -525,11 +475,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562810817667</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加了百度云、华为云、腾讯云的OSS">
+      <created>1562834287160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562834287160</updated>
+    </task>
+    <task id="LOCAL-00003" summary="优化配置文件，优化依赖（去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包）">
+      <created>1562834785636</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562834785636</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66517000" />
+    <option name="totallyTimeSpent" value="67893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,7 +514,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26279318" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.26279318" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.33225107" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -574,7 +538,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.30277187" />
+      <window_info active="true" anchor="right" id="Maven" order="6" visible="true" weight="0.28091684" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -624,106 +588,11 @@
       <path value="$PROJECT_DIR$/develop-1.0.0" />
     </ignored-roots>
     <MESSAGE value="完善ALIYUN OSS和QINIU OSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善ALIYUN OSS和QINIU OSS" />
+    <MESSAGE value="添加了百度云、华为云、腾讯云的OSS" />
+    <MESSAGE value="优化配置文件，优化依赖（去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包）" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化配置文件，优化依赖（去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包）" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/src/main/java/cn/kcyf/tools/es/models/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/src/main/java/cn/kcyf/tools/es/repository/BookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.solr/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.solr/src/main/java/cn/kcyf/tools/solr/controller/SolrController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/A.java" />
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/model/FileInfo.java" />
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AbstractFileService.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/src/main/java/cn/kcyf/tools/es/EsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/OSSApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.4.10/cos_api-5.4.10.jar!/com/qcloud/cos/COSClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="176" column="22" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnProperty.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -763,17 +632,6 @@
           <folding>
             <element signature="e#614#615#0" expanded="true" />
             <element signature="e#673#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/QiniuOSSConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-          <folding>
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,16 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/MultipartConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/huaweicloud/esdk-obs-java/3.19.5/esdk-obs-java-3.19.5.jar!/com/obs/services/model/PutObjectResult.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -851,60 +699,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/AliyunOSSConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/TencentCosConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/OssServiceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/model/FileType.java">
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/model/OssType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/BaiduBosConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/HuaweiObsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,10 +752,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AliyunOssServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/src/main/java/cn/kcyf/tools/pay/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/src/main/java/cn/kcyf/tools/pay/model/PayType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/TencentCosConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/QiniuOSSConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/OssServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/MultipartConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/HuaweiObsConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/BaiduBosConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/AliyunOSSConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AliyunOssServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -966,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduBosServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="361">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -976,8 +873,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/HuaweiObsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="361">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -986,8 +883,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/NginxServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="228">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -996,39 +893,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/QiniuOssServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="418">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/TencentCosServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="471">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/FileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+    <entry file="file://$PROJECT_DIR$/develop.tools/pom.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.sms/pom.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pom.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/pom.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.security/pom.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.security/security.spring/pom.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.security/security.shiro/pom.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.orm/pom.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.orm/orm.solr/pom.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="589">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
