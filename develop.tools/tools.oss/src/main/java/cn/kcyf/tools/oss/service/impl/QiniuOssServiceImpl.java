@@ -13,10 +13,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.util.UUID;
-
 /**
- * 七牛云oss存储文件
+ * 七牛云
  */
 @Service("qiniuOssServiceImpl")
 public class QiniuOssServiceImpl implements FileService, InitializingBean {
@@ -30,10 +28,10 @@ public class QiniuOssServiceImpl implements FileService, InitializingBean {
 	@Autowired
 	private Auth auth;
 
-	@Value("${qiniu.oss.bucketName:5CBWKFd1pP-OSiusd1Bvhokp-ih4i3bs2QA2r-U2}")
-	private String bucket;
+	@Value("${qiniu.oss.bucketName:xxx}")
+	private String bucketName;
 
-	@Value("${qiniu.oss.endpoint:pugech0l5.bkt.clouddn.com}")
+	@Value("${qiniu.oss.endpoint:xxx}")
 	private String endpoint;
 
 	private StringMap putPolicy;
@@ -41,9 +39,9 @@ public class QiniuOssServiceImpl implements FileService, InitializingBean {
 	@Override
 	public String upload(MultipartFile file){
 		try {
-			uploadManager.put(file.getBytes(),  file.getOriginalFilename() , auth.uploadToken(bucket));
+			uploadManager.put(file.getBytes(),  file.getOriginalFilename() , auth.uploadToken(bucketName));
 		} catch (Exception e) {
-			return "";
+			throw new RuntimeException("【qiniu】文件上传发生错误", e);
 		}
 		return endpoint + "/" + file.getOriginalFilename();
 	}
@@ -57,10 +55,10 @@ public class QiniuOssServiceImpl implements FileService, InitializingBean {
 	@Override
 	public boolean delete(String path) {
 		try {
-			Response response = bucketManager.delete(this.bucket, path);
+			Response response = bucketManager.delete(this.bucketName, path);
 			int retry = 0;
 			while (response.needRetry() && retry++ < 3) {
-				response = bucketManager.delete(bucket, path);
+				response = bucketManager.delete(bucketName, path);
 			}
 		} catch (QiniuException e) {
 			return false ;

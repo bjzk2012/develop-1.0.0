@@ -12,6 +12,28 @@ qiniu:
     accessKeySecret: lqSnqS6DXxMknd1F5zMDmufXHX7Mutp7BeSCCE3E
     endpoint: http://pugech0l5.bkt.clouddn.com
     bucketName: aaa
+tencent:
+  oss:
+    access-key: AKIDIzEKEzc3KWZWJwtnaM5q162sW5iC6Cdx
+    accessKeySecret: HNev4gAIF9g6NLE4iTSIUYTGuPK7a0Fq
+    ap: ap-beijing
+    bucketName: platform-wx-1256984181
+    domain: https://platform-wx-1256984181.cos.ap-beijing.myqcloud.com
+baidu:
+  oss:
+    access-key: b95db8fe898949e680c5e177526c2c98
+    accessKeySecret: 2f88d8a3a29a4c549f7b07f51f3aaa9c
+    bucketName: platform-wx
+    domain: https://platform-wx.cdn.bcebos.com
+huawei:
+  oss:
+    access-key: xxx
+    accessKeySecret: xxx
+    endpoint: xxx
+    bucketName: xxx
+nginx:
+  uploadPath: xxx
+  downPath: xxx
 spring:
   servlet:
     multipart:

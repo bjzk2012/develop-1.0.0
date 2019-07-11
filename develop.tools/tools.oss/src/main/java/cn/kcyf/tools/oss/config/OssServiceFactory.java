@@ -26,11 +26,27 @@ public class OssServiceFactory {
     @Autowired
     private FileService qiniuOssServiceImpl;
 
+    @Autowired
+    private FileService nginxServiceImpl;
+
+    @Autowired
+    private FileService tencentCosServiceImpl;
+
+    @Autowired
+    private FileService baiduBosServiceImpl;
+
+    @Autowired
+    private FileService huaweiObsServiceImpl;
+
 
     @PostConstruct
     public void init() {
         map.put(FileType.ALIYUN, aliyunOssServiceImpl);
         map.put(FileType.QINIU, qiniuOssServiceImpl);
+        map.put(FileType.NGINX, nginxServiceImpl);
+        map.put(FileType.TENCENT, tencentCosServiceImpl);
+        map.put(FileType.BAIDU, baiduBosServiceImpl);
+        map.put(FileType.HUAWEI, huaweiObsServiceImpl);
     }
 
     public FileService getFileService(String fileType) {

@@ -1,7 +1,7 @@
 package cn.kcyf.tools.oss.service.impl;
 
 import cn.kcyf.tools.oss.service.FileService;
-import com.aliyun.oss.OSSClient;
+import com.qcloud.cos.COSClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -11,34 +11,32 @@ import java.io.IOException;
 import java.util.UUID;
 
 /**
- * 阿里云
+ * 腾讯云
  */
-@Service("aliyunOssServiceImpl")
-public class AliyunOssServiceImpl implements FileService {
+@Service("tencentCosServiceImpl")
+public class TencentCosServiceImpl implements FileService {
+    @Value("${tencent.oss.bucketName:xxx}")
+    private String bucketName;
+    @Value("${tencent.oss.domain:xxx}")
+    private String domain;
 
     @Autowired
-    private OSSClient ossClient;
-
-    @Value("${aliyun.oss.bucketName:xxx}")
-    private String bucketName;
-    @Value("${aliyun.oss.domain:xxx}")
-    private String domain;
+    private COSClient cosClient;
 
     @Override
     public String upload(MultipartFile file) {
         String key = UUID.randomUUID().toString();
         try {
-            ossClient.putObject(bucketName, key, file.getInputStream());
+            cosClient.putObject(bucketName, key, file.getInputStream(), null);
         } catch (IOException e) {
-            return "";
+            throw new RuntimeException("【tencent】上传图片失败");
         }
         return domain + "/" + key;
     }
 
     @Override
-    public boolean delete(String key) {
-        ossClient.deleteObject(bucketName, key);
+    public boolean delete(String path) {
+        cosClient.deleteObject(bucketName, path);
         return true;
     }
-
 }
