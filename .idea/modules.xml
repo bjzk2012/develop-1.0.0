@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/develop.iml" filepath="$PROJECT_DIR$/develop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.commons/develop.commons.iml" filepath="$PROJECT_DIR$/develop.commons/develop.commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.commons/develop.commons.basic/develop.commons.basic.iml" filepath="$PROJECT_DIR$/develop.commons/develop.commons.basic/develop.commons.basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.commons/develop.commons.constant/develop.commons.constant.iml" filepath="$PROJECT_DIR$/develop.commons/develop.commons.constant/develop.commons.constant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.commons/develop.commons.http/develop.commons.http.iml" filepath="$PROJECT_DIR$/develop.commons/develop.commons.http/develop.commons.http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.commons/develop.commons.utils/develop.commons.utils.iml" filepath="$PROJECT_DIR$/develop.commons/develop.commons.utils/develop.commons.utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.commons/develop.commons.web/develop.commons.web.iml" filepath="$PROJECT_DIR$/develop.commons/develop.commons.web/develop.commons.web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.orm/develop.orm.iml" filepath="$PROJECT_DIR$/develop.orm/develop.orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.orm/develop.orm.es/develop.orm.es.iml" filepath="$PROJECT_DIR$/develop.orm/develop.orm.es/develop.orm.es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.orm/develop.orm.jpa/develop.orm.jpa.iml" filepath="$PROJECT_DIR$/develop.orm/develop.orm.jpa/develop.orm.jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.orm/develop.orm.mybatis/develop.orm.mybatis.iml" filepath="$PROJECT_DIR$/develop.orm/develop.orm.mybatis/develop.orm.mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.orm/develop.orm.solr/develop.orm.solr.iml" filepath="$PROJECT_DIR$/develop.orm/develop.orm.solr/develop.orm.solr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.security/develop.security.iml" filepath="$PROJECT_DIR$/develop.security/develop.security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.security/develop.security.shiro/develop.security.shiro.iml" filepath="$PROJECT_DIR$/develop.security/develop.security.shiro/develop.security.shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.security/develop.security.spring/develop.security.spring.iml" filepath="$PROJECT_DIR$/develop.security/develop.security.spring/develop.security.spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.tools/develop.tools.iml" filepath="$PROJECT_DIR$/develop.tools/develop.tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.tools/develop.tools.kafka/develop.tools.kafka.iml" filepath="$PROJECT_DIR$/develop.tools/develop.tools.kafka/develop.tools.kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.tools/develop.tools.oss/develop.tools.oss.iml" filepath="$PROJECT_DIR$/develop.tools/develop.tools.oss/develop.tools.oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.tools/develop.tools.pay/develop.tools.pay.iml" filepath="$PROJECT_DIR$/develop.tools/develop.tools.pay/develop.tools.pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.tools/develop.tools.sms/develop.tools.sms.iml" filepath="$PROJECT_DIR$/develop.tools/develop.tools.sms/develop.tools.sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.tools/develop.tools.ueditor/develop.tools.ueditor.iml" filepath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/develop.tools.ueditor.iml" />
+    </modules>
+  </component>
+</project>
