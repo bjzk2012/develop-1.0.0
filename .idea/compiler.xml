@@ -9,6 +9,7 @@
         <module name="develop.orm.jpa" />
         <module name="develop.orm.solr" />
         <module name="develop.tools.sms" />
+        <module name="develop.tools.pay" />
         <module name="develop.security.shiro" />
         <module name="develop.orm.es" />
         <module name="develop.tools.ueditor" />
