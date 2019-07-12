@@ -1,65 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676e5461-c321-4627-b7f7-c32edbc55947" name="Default Changelist" comment="">
+    <list default="true" id="f85d6ad0-c472-4423-b4c5-7ec06f285a88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.commons/commons.basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/commons.basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.commons/commons.constant/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/commons.constant/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.commons/commons.http/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/commons.http/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/commons.utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/commons.web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.orm/orm.es/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/orm.es/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/security.shiro/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.security/security.spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/security.spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.pay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.pay/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.pay/src/main/java/cn/kcyf/tools/pay/model/PayType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.sms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.constant/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.constant/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.http/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.http/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.http/src/main/java/cn/kcyf/commons/http/SimpleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.http/src/main/java/cn/kcyf/commons/http/SimpleClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.http/src/main/java/cn/kcyf/commons/http/TApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.http/src/main/java/cn/kcyf/commons/http/TApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.http/src/main/java/cn/kcyf/commons/http/TUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.http/src/main/java/cn/kcyf/commons/http/TUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.http/src/main/java/cn/kcyf/commons/http/enumerate/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.http/src/main/java/cn/kcyf/commons/http/enumerate/DataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.http/src/main/java/cn/kcyf/commons/http/enumerate/RequestMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.http/src/main/java/cn/kcyf/commons/http/enumerate/RequestMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/ArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/BeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/CharUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/CharUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/EmailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/EmailUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/LunarUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/LunarUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/MobileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/MobileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/RandomUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/RandomUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/ZipperUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/ZipperUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/security/BASE64Decoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/security/BASE64Decoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/security/BASE64Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/security/BASE64Encoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/security/CEFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/security/CEFormatException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/security/CEStreamExhausted.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/security/CEStreamExhausted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/security/CharacterDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/security/CharacterDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/security/CharacterEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/security/CharacterEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/security/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/security/SecurityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/zxing/BufferedImageLuminanceSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/zxing/BufferedImageLuminanceSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/zxing/ZXingCodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/zxing/ZXingCodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/src/main/java/cn/kcyf/commons/utils/zxing/ZXingLogoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.utils/src/main/java/cn/kcyf/commons/utils/zxing/ZXingLogoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/CookieUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/KeepSessionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/KeepSessionServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/ProcessTimeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/ProcessTimeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/RealPathResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/RealPathResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/RequestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/RequestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/ResponseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/ResponseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/Servlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/Servlets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/SpringContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/SpringContextHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/URLHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/URLHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/UserAgentUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/UserAgentUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/captcha/JcaptchaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/captcha/JcaptchaServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/session/CacheSessionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/session/CacheSessionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/session/HttpSessionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/session/HttpSessionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/session/SessionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/session/SessionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/session/cache/EhcacheSessionCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/session/cache/EhcacheSessionCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/session/cache/SessionCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/session/cache/SessionCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/session/id/SessionIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/session/id/SessionIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/src/main/java/cn/kcyf/commons/web/session/id/UUIDSessionIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.web/src/main/java/cn/kcyf/commons/web/session/id/UUIDSessionIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/develop.commons.constant/develop.commons.constant.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/develop.commons.http/develop.commons.http.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/develop.commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/develop.commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/develop.commons.utils/develop.commons.utils.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/develop.commons.web/develop.commons.web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/develop.orm.es/develop.orm.es.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/develop.orm.jpa/develop.orm.jpa.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/develop.orm.mybatis/develop.orm.mybatis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/develop.orm.solr/develop.orm.solr.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.es/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.es/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.es/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.es/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.es/src/main/java/cn/kcyf/tools/es/EsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.es/src/main/java/cn/kcyf/tools/es/EsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.es/src/main/java/cn/kcyf/tools/es/config/EsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.es/src/main/java/cn/kcyf/tools/es/config/EsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.es/src/main/java/cn/kcyf/tools/es/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.es/src/main/java/cn/kcyf/tools/es/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.es/src/main/java/cn/kcyf/tools/es/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.es/src/main/java/cn/kcyf/tools/es/models/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.es/src/main/java/cn/kcyf/tools/es/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.es/src/main/java/cn/kcyf/tools/es/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.es/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.es/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.jpa/src/main/java/cn/kcyf/orm/jpa/entity/IdDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.jpa/src/main/java/cn/kcyf/orm/jpa/entity/IdDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.jpa/src/main/java/cn/kcyf/orm/jpa/entity/TableDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.jpa/src/main/java/cn/kcyf/orm/jpa/entity/TableDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.mybatis/src/main/java/cn/kcyf/orm/mybatis/entity/IdDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.mybatis/src/main/java/cn/kcyf/orm/mybatis/entity/IdDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.mybatis/src/main/java/cn/kcyf/orm/mybatis/entity/TableDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.mybatis/src/main/java/cn/kcyf/orm/mybatis/entity/TableDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.solr/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.solr/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.solr/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.solr/src/main/java/cn/kcyf/tools/solr/SolrApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.solr/src/main/java/cn/kcyf/tools/solr/SolrApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.solr/src/main/java/cn/kcyf/tools/solr/controller/SolrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.solr/src/main/java/cn/kcyf/tools/solr/controller/SolrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.solr/src/main/java/cn/kcyf/tools/solr/models/BasicSolrContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.solr/src/main/java/cn/kcyf/tools/solr/models/BasicSolrContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.solr/src/main/java/cn/kcyf/tools/solr/models/SolrContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.solr/src/main/java/cn/kcyf/tools/solr/models/SolrContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.solr/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/develop.orm.solr/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/develop.security.shiro/develop.security.shiro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/develop.security.spring/develop.security.spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/cache/SpringCacheManagerWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/cache/SpringCacheManagerWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/credentials/RetryLimitHashedCredentialsMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/credentials/RetryLimitHashedCredentialsMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/domain/OAuth2Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/domain/OAuth2Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/domain/ShiroUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/domain/ShiroUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/filter/DbFormAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/filter/DbFormAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/filter/OAuth2AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/filter/OAuth2AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/filter/Oauth2LogoutFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/filter/Oauth2LogoutFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/filter/SingleSignLogoutFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/filter/SingleSignLogoutFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/filter/UserFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/filter/UserFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/realm/BasicRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/realm/BasicRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/realm/db/DbRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/realm/db/DbRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/realm/oauth2/OAuth2Realm.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/realm/oauth2/OAuth2Realm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/service/ShiroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/service/ShiroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/src/main/java/cn/kcyf/security/util/AjaxUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.shiro/src/main/java/cn/kcyf/security/util/AjaxUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/develop.security.spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/develop.tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/develop.tools.kafka/develop.tools.kafka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/develop.tools.oss/develop.tools.oss.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/develop.tools.pay/develop.tools.pay.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/develop.tools.sms/develop.tools.sms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/develop.tools.ueditor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.kafka/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.kafka/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.kafka/src/main/java/cn/kcyf/tools/kafka/KafkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.kafka/src/main/java/cn/kcyf/tools/kafka/KafkaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.kafka/src/main/java/cn/kcyf/tools/kafka/config/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.kafka/src/main/java/cn/kcyf/tools/kafka/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.kafka/src/main/java/cn/kcyf/tools/kafka/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.kafka/src/main/java/cn/kcyf/tools/kafka/config/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.kafka/src/main/java/cn/kcyf/tools/kafka/listener/DefaultListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.kafka/src/main/java/cn/kcyf/tools/kafka/listener/DefaultListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.kafka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.kafka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/AliyunOSSConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/config/AliyunOSSConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/BaiduBosConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/config/BaiduBosConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/HuaweiObsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/config/HuaweiObsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/MultipartConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/config/MultipartConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/OssServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/config/OssServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/QiniuOSSConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/config/QiniuOSSConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/TencentCosConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/config/TencentCosConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/model/OssType.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/model/OssType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AliyunOssServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AliyunOssServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduBosServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduBosServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/HuaweiObsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/HuaweiObsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/NginxServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/NginxServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/QiniuOssServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/QiniuOssServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/TencentCosServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/TencentCosServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.oss/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.pay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.pay/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.sms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.sms/src/main/java/cn/kcyf/tools/sms/aliyun/AliSMSTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.sms/src/main/java/cn/kcyf/tools/sms/aliyun/AliSMSTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.sms/src/main/java/cn/kcyf/tools/sms/aliyun/AliSMSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.sms/src/main/java/cn/kcyf/tools/sms/aliyun/AliSMSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.sms/src/main/java/cn/kcyf/tools/sms/ipyy/IpyySMSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.sms/src/main/java/cn/kcyf/tools/sms/ipyy/IpyySMSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.sms/src/main/java/cn/kcyf/tools/sms/zucp/ZucpSMSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.sms/src/main/java/cn/kcyf/tools/sms/zucp/ZucpSMSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.sms/tools.sms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/Encoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/PathFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/PathFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/ActionMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/ActionMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/ActionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/ActionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/AppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/AppInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/BaseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/BaseState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/FileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/FileType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/MIMEType.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/MIMEType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/MultiState.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/MultiState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/upload/BinaryUploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/upload/BinaryUploader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/upload/StorageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/develop.tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/upload/StorageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/tools.ueditor.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/develop.commons/target/" />
-    <ignored path="$PROJECT_DIR$/develop.commons/commons.utils/target/" />
-    <ignored path="$PROJECT_DIR$/develop.commons/commons.constant/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/target/" />
-    <ignored path="$PROJECT_DIR$/delelop.orm/target/" />
-    <ignored path="$PROJECT_DIR$/develop.orm/orm.mybatis/target/" />
-    <ignored path="$PROJECT_DIR$/develop.orm/target/" />
-    <ignored path="$PROJECT_DIR$/develop.orm/orm.jpa/target/" />
     <ignored path="$PROJECT_DIR$/develop.security/target/" />
-    <ignored path="$PROJECT_DIR$/develop.commons/commons.web/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.sms/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.ueditor/target/" />
-    <ignored path="$PROJECT_DIR$/develop.commons/commons.http/target/" />
-    <ignored path="$PROJECT_DIR$/develop.commons/commons.basic/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.solr/target/" />
-    <ignored path="$PROJECT_DIR$/develop.security/security.shiro/target/" />
-    <ignored path="$PROJECT_DIR$/develop.security/security.spring/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.kafka/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.es/target/" />
-    <ignored path="$PROJECT_DIR$/develop.orm/orm.solr/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.sso/target/" />
-    <ignored path="$PROJECT_DIR$/develop.orm/orm.es/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.oss/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-common/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-fuiou/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-payoneer/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-union/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-paypal/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-yiji/target/" />
-    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/target/" />
+    <ignored path="$PROJECT_DIR$/develop.tools/target/" />
+    <ignored path="$PROJECT_DIR$/develop.commons/target/" />
+    <ignored path="$PROJECT_DIR$/develop.orm/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,138 +176,50 @@
     </execution>
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-266">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.security/security.shiro/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.security/security.spring/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/develop.tools/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="266">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.tools/develop.tools.ueditor/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml">
+        <entry file="file://$PROJECT_DIR$/develop.commons/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            <state relative-caret-position="266">
+              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.sms/pom.xml">
+        <entry file="file://$PROJECT_DIR$/develop.commons/develop.commons.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>StringUtils.isBlank</find>
-      <find>org.apache.commons.lang.StringUtils</find>
-      <find>@Column(name</find>
-      <find>kafka.server</find>
-      <find>windows\</find>
-      <find>&gt;</find>
-      <find>meiqia-container</find>
-      <find>COSClient</find>
-      <find>oss.</find>
-      <find>&lt;groupId&gt;com.egzosn&lt;/groupId&gt;</find>
-      <find>com.egzosn.pay</find>
-      <find>@author egan</find>
-      <find>@author</find>
-      <find>faster</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>StringUtils.isEmpty</replace>
-      <replace>org.springframework.util.StringUtils;</replace>
-      <replace>isEmpty</replace>
-      <replace>@TableField(value</replace>
-      <replace>127.0.0.1</replace>
-      <replace>sh.sh</replace>
-      <replace>&gt;```</replace>
-      <replace>&lt;groupId&gt;cn.kcyf&lt;/groupId&gt;</replace>
-      <replace>cn.kcyf.tools.pay</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -211,57 +227,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/api/AliPayConfigStorage.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-union/src/main/java/cn/kcyf/tools/pay/union/bean/UnionPayMessage.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/src/main/java/cn/kcyf/tools/pay/wx/bean/WxTransferType.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/src/main/java/cn/kcyf/tools/pay/wx/api/WxPayService.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/src/main/java/cn/kcyf/tools/pay/wx/bean/WxBank.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-common/src/main/java/cn/kcyf/tools/pay/common/bean/PayMessage.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-common/src/main/java/cn/kcyf/tools/pay/common/bean/TransactionType.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/api/AliPayService.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/bean/AliTransferType.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/before/bean/AliTransactionType.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/test/java/PayTest.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/bean/AliTransactionType.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/bean/OrderSettle.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/bean/AliPayMessage.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/MultiState.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.sms/src/main/java/cn/kcyf/tools/sms/aliyun/AliSMSUtils.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-union/src/main/java/cn/kcyf/tools/pay/union/api/UnionPayService.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-payoneer/test/java/PayTest.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/java/cn/kcyf/tools/pay/demo/PayDemoApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.commons/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.orm/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.security/pom.xml" />
         <option value="$PROJECT_DIR$/develop.tools/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-common/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-fuiou/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-payoneer/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-paypal/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-union/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-yiji/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay.ali/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.commons/commons.basic/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.commons/commons.constant/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.commons/commons.http/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.commons/commons.utils/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.commons/commons.web/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.orm/orm.es/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.security/security.spring/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.security/security.shiro/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.sms/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.commons/pom.xml" />
       </list>
     </option>
   </component>
@@ -270,7 +237,6 @@
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
         <option name="mavenHome" value="D:/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="D:\maven\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -279,37 +245,37 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Develop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Develop Commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Develop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Develop Orm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Develop Security" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Develop Tools" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1932" />
     <option name="height" value="1056" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,19 +286,17 @@
             <path>
               <item name="develop" type="b2602c69:ProjectViewProjectNode" />
               <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.security" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.orm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="develop" type="b2602c69:ProjectViewProjectNode" />
               <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
               <item name="develop.security" type="462c0819:PsiDirectoryNode" />
-              <item name="security.shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.security" type="462c0819:PsiDirectoryNode" />
-              <item name="security.spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="develop" type="b2602c69:ProjectViewProjectNode" />
@@ -343,83 +307,24 @@
               <item name="develop" type="b2602c69:ProjectViewProjectNode" />
               <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
               <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools.kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools.oss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools.pay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools.sms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools.ueditor" type="462c0819:PsiDirectoryNode" />
+              <item name="develop.tools.ueditor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pay-java-parent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.tools\tools.oss\src\main\resources\templates" />
-      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.tools\tools.oss\src\main\webapp" />
-      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.orm" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.kcyf.tools.oss.service" />
-      <recent name="cn.kcyf.tools.oss.config" />
-      <recent name="cn.kcyf.commons.web.captcha" />
-      <recent name="cn.kcyf.commons.utils" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.tools\tools.oss\src\main\java\cn\kcyf\tools\oss\service\impl" />
-      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.tools\tools.oss\src\main\java\cn\kcyf\tools\oss" />
-      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.tools\tools.oss\src\main\java\cn\kcyf\tools\oss\service" />
-      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.tools\tools.solr\src\main\resources" />
-      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.orm\orm.jpa\src\main\java\cn\kcyf\orm\jpa\entity" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -431,540 +336,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="PayDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="pay-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.kcyf.tools.pay.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kcyf.tools.pay.demo.PayDemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.PayDemoApplication" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="676e5461-c321-4627-b7f7-c32edbc55947" name="Default Changelist" comment="" />
-      <created>1562297916515</created>
+      <changelist id="f85d6ad0-c472-4423-b4c5-7ec06f285a88" name="Default Changelist" comment="" />
+      <created>1562901335578</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562297916515</updated>
-      <workItem from="1562297919208" duration="16022000" />
-      <workItem from="1562547800234" duration="6590000" />
-      <workItem from="1562558098006" duration="15522000" />
-      <workItem from="1562634726272" duration="40000" />
-      <workItem from="1562635189279" duration="3175000" />
-      <workItem from="1562739125639" duration="3968000" />
-      <workItem from="1562751080839" duration="400000" />
-      <workItem from="1562806499073" duration="22911000" />
-      <workItem from="1562893042188" duration="5437000" />
-      <workItem from="1562899072965" duration="1571000" />
+      <updated>1562901335578</updated>
+      <workItem from="1562901339180" duration="54000" />
+      <workItem from="1562901520659" duration="697000" />
     </task>
-    <task id="LOCAL-00001" summary="完善ALIYUN OSS和QINIU OSS">
-      <created>1562810817666</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1562810817667</updated>
-    </task>
-    <task id="LOCAL-00002" summary="添加了百度云、华为云、腾讯云的OSS">
-      <created>1562834287160</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1562834287160</updated>
-    </task>
-    <task id="LOCAL-00003" summary="优化配置文件，优化依赖（去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包）">
-      <created>1562834785636</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1562834785636</updated>
-    </task>
-    <task id="LOCAL-00004" summary="去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包">
-      <created>1562835698886</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1562835698886</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75636000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="751000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26439232" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.33225107" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.23827292" side_tool="true" weight="0.33044422" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Spring" order="6" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4664502" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.7617271" weight="0.33044422" />
-      <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32936078" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.28091684" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3306624" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26279318" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.33225107" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.23827292" side_tool="true" visible="true" weight="0.33044422" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Spring" order="6" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.32900432" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4664502" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.7617271" visible="true" weight="0.33044422" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.30277187" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/develop-1.0.0" />
-    </ignored-roots>
-    <MESSAGE value="完善ALIYUN OSS和QINIU OSS" />
-    <MESSAGE value="添加了百度云、华为云、腾讯云的OSS" />
-    <MESSAGE value="优化配置文件，优化依赖（去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包）" />
-    <MESSAGE value="去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/bean/AliPayMessage.java">
+    <entry file="file://$PROJECT_DIR$/develop.tools/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/before/api/AliPayService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/resources/apy_account.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/resources/mvc-servlet-context.xml" />
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/resources/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/resources/acp_sdk.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-545" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/tools.pay.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/resources/log4j.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.54/fastjson-1.2.54.jar!/com/alibaba/fastjson/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/java/cn/kcyf/tools/pay/demo/PayDemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/java/cn/kcyf/tools/pay/demo/dao/ApyAccountRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/src/main/java/cn/kcyf/tools/es/EsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/pay-wx-youdian.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/src/main/java/cn/kcyf/tools/pay/wx/youdian/api/WxYouDianPayService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/src/main/java/cn/kcyf/tools/pay/wx/youdian/bean/WxYoudianPayMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="266">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.commons/develop.commons.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/cn/kcyf/develop.commons.web/1.0.0/develop.commons.web-1.0.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/develop.tools.ueditor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/develop.commons/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-paypal/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <folding>
-              <element signature="e#0#394#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-fuiou/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-payoneer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-paypal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-union/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-yiji/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay.ali/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.security/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.solr/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.commons/commons.web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.commons/commons.utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.commons/commons.http/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.commons/commons.basic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.commons/commons.constant/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.security/security.shiro/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.security/security.spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.sms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="266">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -972,81 +434,9 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>pay-demo:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (tools.ueditor)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>security</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

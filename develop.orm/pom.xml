@@ -10,10 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>orm.jpa</module>
-        <module>orm.mybatis</module>
-        <module>orm.es</module>
-        <module>orm.solr</module>
+        <module>develop.orm.jpa</module>
+        <module>develop.orm.mybatis</module>
+        <module>develop.orm.es</module>
+        <module>develop.orm.solr</module>
     </modules>
     <artifactId>develop.orm</artifactId>
 

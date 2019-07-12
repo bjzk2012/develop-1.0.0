@@ -6,43 +6,45 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tools.ueditor" />
-        <module name="commons.http" />
-        <module name="orm.es" />
-        <module name="tools.kafka" />
-        <module name="orm.jpa" />
-        <module name="commons.utils" />
-        <module name="commons.basic" />
-        <module name="commons.web" />
-        <module name="orm.mybatis" />
-        <module name="security.shiro" />
-        <module name="orm.solr" />
-        <module name="commons.constant" />
-        <module name="security.spring" />
-        <module name="tools.sms" />
-        <module name="tools.oss" />
+        <module name="develop.orm.jpa" />
+        <module name="develop.orm.solr" />
+        <module name="develop.tools.sms" />
+        <module name="develop.security.shiro" />
+        <module name="develop.orm.es" />
+        <module name="develop.tools.ueditor" />
+        <module name="develop.security.spring" />
+        <module name="develop.orm.mybatis" />
+        <module name="develop.commons.constant" />
+        <module name="develop.tools.kafka" />
+        <module name="develop.commons.http" />
+        <module name="develop.commons.basic" />
+        <module name="develop.commons.web" />
+        <module name="develop.commons.utils" />
+        <module name="develop.tools.oss" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="pay-ali" target="1.8" />
-      <module name="pay-common" target="1.8" />
-      <module name="pay-demo" target="1.7" />
-      <module name="pay-fuiou" target="1.8" />
-      <module name="pay-payoneer" target="1.8" />
-      <module name="pay-paypal" target="1.8" />
-      <module name="pay-union" target="1.8" />
-      <module name="pay-wx" target="1.8" />
-      <module name="pay-wx-youdian" target="1.8" />
-      <module name="pay-yiji" target="1.8" />
+      <module name="develop" target="1.8" />
+      <module name="develop.commons" target="1.8" />
+      <module name="develop.commons.basic" target="1.8" />
+      <module name="develop.commons.constant" target="1.8" />
+      <module name="develop.commons.http" target="1.8" />
+      <module name="develop.commons.utils" target="1.8" />
+      <module name="develop.commons.web" target="1.8" />
+      <module name="develop.orm" target="1.8" />
+      <module name="develop.orm.es" target="1.8" />
+      <module name="develop.orm.jpa" target="1.8" />
+      <module name="develop.orm.mybatis" target="1.8" />
+      <module name="develop.orm.solr" target="1.8" />
+      <module name="develop.security" target="1.8" />
+      <module name="develop.security.shiro" target="1.8" />
+      <module name="develop.security.spring" target="1.8" />
+      <module name="develop.tools" target="1.8" />
+      <module name="develop.tools.kafka" target="1.8" />
+      <module name="develop.tools.oss" target="1.8" />
+      <module name="develop.tools.pay" target="1.8" />
+      <module name="develop.tools.sms" target="1.8" />
+      <module name="develop.tools.ueditor" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="commons.constant" options="" />
-      <module name="commons.utils" options="" />
-      <module name="develop.security" options="" />
-      <module name="orm.jpa" options="" />
-      <module name="orm.mybatis" options="" />
-    </option>
   </component>
 </project>

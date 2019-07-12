@@ -3,34 +3,24 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/develop.commons" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.commons/commons.basic" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.commons/commons.constant" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.commons/commons.http" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.commons/commons.utils" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.commons/commons.web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons/develop.commons.basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons/develop.commons.constant" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons/develop.commons.http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons/develop.commons.utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons/develop.commons.web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/develop.orm" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.orm/orm.es" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.orm/orm.jpa" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.orm/orm.mybatis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.orm/orm.solr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.orm/develop.orm.es" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.orm/develop.orm.jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.orm/develop.orm.mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.orm/develop.orm.solr" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/develop.security" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.security/security.shiro" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.security/security.spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.security/develop.security.shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.security/develop.security.spring" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/develop.tools" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.kafka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.oss" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-ali" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-fuiou" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-payoneer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-paypal" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-union" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-yiji" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.sms" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/develop.tools/tools.ueditor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools/develop.tools.kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools/develop.tools.oss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools/develop.tools.pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools/develop.tools.sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.tools/develop.tools.ueditor" charset="UTF-8" />
   </component>
 </project>
