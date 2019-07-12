@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>commons.utils</artifactId>
+    <artifactId>develop.commons.utils</artifactId>
 
     <name>Develop Commons Utils</name>
     <description>常用工具类</description>

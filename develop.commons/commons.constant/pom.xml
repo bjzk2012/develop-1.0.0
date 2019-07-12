@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>commons.constant</artifactId>
+    <artifactId>develop.commons.constant</artifactId>
 
     <name>Develop Commons Constant</name>
     <description>常用常量类</description>

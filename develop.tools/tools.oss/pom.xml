@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>tools.oss</artifactId>
+    <artifactId>develop.tools.oss</artifactId>
 
     <name>Develop Tools OSS</name>
     <description>OSS 文件上传</description>

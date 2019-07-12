@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>tools.sms</artifactId>
+    <artifactId>develop.tools.sms</artifactId>
 
     <name>Develop Tools SMS</name>
     <description>发送短信</description>
@@ -17,12 +17,12 @@
     <dependencies>
         <dependency>
             <groupId>cn.kcyf</groupId>
-            <artifactId>commons.utils</artifactId>
+            <artifactId>develop.commons.utils</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>cn.kcyf</groupId>
-            <artifactId>commons.http</artifactId>
+            <artifactId>develop.commons.http</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>

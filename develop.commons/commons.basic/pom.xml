@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>commons.basic</artifactId>
+    <artifactId>develop.commons.basic</artifactId>
 
     <name>Develop Commons Basic</name>
     <description>所有模块的顶级父模块</description>

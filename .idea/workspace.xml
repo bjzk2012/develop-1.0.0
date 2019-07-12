@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="676e5461-c321-4627-b7f7-c32edbc55947" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/commons.basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.constant/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/commons.constant/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.http/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/commons.http/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/commons.utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.commons/commons.web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.commons/commons.web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/develop.orm/orm.es/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/orm.es/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.shiro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/security.shiro/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.security/security.spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.security/security.spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.pay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.pay/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.pay/src/main/java/cn/kcyf/tools/pay/model/PayType.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/develop.tools/tools.sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.sms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,6 +50,16 @@
     <ignored path="$PROJECT_DIR$/develop.tools/tools.sso/target/" />
     <ignored path="$PROJECT_DIR$/develop.orm/orm.es/target/" />
     <ignored path="$PROJECT_DIR$/develop.tools/tools.oss/target/" />
+    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-common/target/" />
+    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-fuiou/target/" />
+    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/target/" />
+    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-payoneer/target/" />
+    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/target/" />
+    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-union/target/" />
+    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/target/" />
+    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-paypal/target/" />
+    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-yiji/target/" />
+    <ignored path="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,76 +77,90 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/pom.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-266">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.security/pom.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.security/security.spring/pom.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/develop.security/security.shiro/pom.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.orm/pom.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.orm/orm.solr/pom.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml">
+        <entry file="file://$PROJECT_DIR$/develop.security/security.spring/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="209">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.tools/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/pom.xml">
+        <entry file="file://$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            <state relative-caret-position="351">
+              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.tools/tools.sms/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -147,6 +187,11 @@
       <find>meiqia-container</find>
       <find>COSClient</find>
       <find>oss.</find>
+      <find>&lt;groupId&gt;com.egzosn&lt;/groupId&gt;</find>
+      <find>com.egzosn.pay</find>
+      <find>@author egan</find>
+      <find>@author</find>
+      <find>faster</find>
     </findStrings>
     <replaceStrings>
       <replace>StringUtils.isEmpty</replace>
@@ -156,6 +201,8 @@
       <replace>127.0.0.1</replace>
       <replace>sh.sh</replace>
       <replace>&gt;```</replace>
+      <replace>&lt;groupId&gt;cn.kcyf&lt;/groupId&gt;</replace>
+      <replace>cn.kcyf.tools.pay</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -164,57 +211,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/develop.tools/tools.es/src/main/java/cn/kcyf/tools/es/config/EsConfig.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.es/src/main/java/cn/kcyf/tools/es/EsApplication.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.solr/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.solr/src/main/java/cn/kcyf/tools/solr/models/User.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.solr/src/main/java/cn/kcyf/tools/solr/dao/SolrService.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.solr/src/main/java/cn/kcyf/tools/solr/SolrApplication.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.solr/src/main/java/cn/kcyf/tools/solr/models/BasicSolrContent.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.solr/src/main/java/cn/kcyf/tools/solr/dao/SolrServiceImpl.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.solr/src/main/java/cn/kcyf/tools/solr/controller/SolrController.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.solr/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.es/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.es/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.es/src/main/java/cn/kcyf/tools/es/controller/BookController.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.es/src/main/java/cn/kcyf/tools/es/repository/BookRepository.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/api/AliPayConfigStorage.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-union/src/main/java/cn/kcyf/tools/pay/union/bean/UnionPayMessage.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/src/main/java/cn/kcyf/tools/pay/wx/bean/WxTransferType.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/src/main/java/cn/kcyf/tools/pay/wx/api/WxPayService.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/src/main/java/cn/kcyf/tools/pay/wx/bean/WxBank.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-common/src/main/java/cn/kcyf/tools/pay/common/bean/PayMessage.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-common/src/main/java/cn/kcyf/tools/pay/common/bean/TransactionType.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/api/AliPayService.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/bean/AliTransferType.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/before/bean/AliTransactionType.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/test/java/PayTest.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/bean/AliTransactionType.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/bean/OrderSettle.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/bean/AliPayMessage.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.ueditor/src/main/java/cn/kcyf/tools/ueditor/define/MultiState.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.sms/src/main/java/cn/kcyf/tools/sms/aliyun/AliSMSUtils.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-union/src/main/java/cn/kcyf/tools/pay/union/api/UnionPayService.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-payoneer/test/java/PayTest.java" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/java/cn/kcyf/tools/pay/demo/PayDemoApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.commons/pom.xml" />
         <option value="$PROJECT_DIR$/develop.orm/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.sso/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.security/pom.xml" />
         <option value="$PROJECT_DIR$/develop.tools/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/A.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/MultipartConfig.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/AliyunOSSConfig.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/model/FileInfo.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AbstractFileService.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/template/index.html" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/OSSApplication.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/controller/UploadController.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/NginxOssServiceImpl.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduCosServiceImpl.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/util/CosFileUtil.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/OssServiceFactory.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/model/FileType.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/FileService.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.pay/src/main/java/cn/kcyf/tools/pay/model/PayType.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/AliyunOSSConfig.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/HuaweiObsConfig.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/QiniuOSSConfig.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/TencentCosConfig.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/BaiduBosConfig.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AliyunOssServiceImpl.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduBosServiceImpl.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/HuaweiObsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/NginxServiceImpl.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/QiniuOssServiceImpl.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/TencentCosServiceImpl.java" />
-        <option value="$PROJECT_DIR$/develop.tools/tools.sms/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" />
-        <option value="$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-common/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-fuiou/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-payoneer/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-paypal/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-union/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay-yiji/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pay.ali/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.commons/commons.basic/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.commons/commons.constant/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.commons/commons.http/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.commons/commons.utils/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.commons/commons.web/pom.xml" />
         <option value="$PROJECT_DIR$/develop.orm/orm.es/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.orm/orm.solr/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.security/security.spring/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.security/security.shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.oss/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.pay/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.sms/pom.xml" />
+        <option value="$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml" />
       </list>
     </option>
   </component>
@@ -239,45 +286,6 @@
           <item name="Develop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.data:spring-data-elasticsearch:3.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.data:spring-data-elasticsearch:3.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.elasticsearch.client:transport:6.2.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Develop Orm Es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.data:spring-data-elasticsearch:3.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.elasticsearch.client:transport:6.2.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.elasticsearch:elasticsearch:6.2.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -285,10 +293,13 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -305,35 +316,6 @@
             <path>
               <item name="develop" type="b2602c69:ProjectViewProjectNode" />
               <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.orm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.orm" type="462c0819:PsiDirectoryNode" />
-              <item name="orm.es" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.orm" type="462c0819:PsiDirectoryNode" />
-              <item name="orm.jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.orm" type="462c0819:PsiDirectoryNode" />
-              <item name="orm.mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="develop-1.0.0" type="462c0819:PsiDirectoryNode" />
-              <item name="develop.orm" type="462c0819:PsiDirectoryNode" />
-              <item name="orm.solr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="develop" type="b2602c69:ProjectViewProjectNode" />
@@ -391,8 +373,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,10 +386,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pay-java-parent" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -449,6 +431,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="PayDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="pay-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kcyf.tools.pay.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kcyf.tools.pay.demo.PayDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PayDemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -466,7 +468,9 @@
       <workItem from="1562635189279" duration="3175000" />
       <workItem from="1562739125639" duration="3968000" />
       <workItem from="1562751080839" duration="400000" />
-      <workItem from="1562806499073" duration="22176000" />
+      <workItem from="1562806499073" duration="22911000" />
+      <workItem from="1562893042188" duration="5437000" />
+      <workItem from="1562899072965" duration="1571000" />
     </task>
     <task id="LOCAL-00001" summary="完善ALIYUN OSS和QINIU OSS">
       <created>1562810817666</created>
@@ -489,11 +493,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562834785636</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包">
+      <created>1562835698886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562835698886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67893000" />
+    <option name="totallyTimeSpent" value="75636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,7 +525,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.26279318" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26439232" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.33225107" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -525,20 +536,21 @@
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4664502" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32827735" />
       <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.7617271" weight="0.33044422" />
+      <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32936078" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info active="true" anchor="right" id="Maven" order="6" visible="true" weight="0.28091684" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.28091684" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -590,404 +602,369 @@
     <MESSAGE value="完善ALIYUN OSS和QINIU OSS" />
     <MESSAGE value="添加了百度云、华为云、腾讯云的OSS" />
     <MESSAGE value="优化配置文件，优化依赖（去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包）" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化配置文件，优化依赖（去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包）" />
+    <MESSAGE value="去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除了可能导致依赖冲突的依赖包，重新引用同一版本依赖包" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/bean/AliPayMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="152">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.4.10/cos_api-5.4.10.jar!/com/qcloud/cos/model/AbstractPutObjectRequest.class">
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/src/main/java/cn/kcyf/tools/pay/ali/before/api/AliPayService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="25" column="61" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="61" />
+        <state relative-caret-position="197">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.4.10/cos_api-5.4.10.jar!/com/qcloud/cos/model/PutObjectRequest.class">
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/resources/apy_account.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/resources/mvc-servlet-context.xml" />
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/resources/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/resources/acp_sdk.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/tools.pay.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/resources/log4j.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.54/fastjson-1.2.54.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qiniu/qiniu-java-sdk/7.2.23/qiniu-java-sdk-7.2.23.jar!/com/qiniu/util/Auth.class">
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/java/cn/kcyf/tools/pay/demo/PayDemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qiniu/qiniu-java-sdk/7.2.23/qiniu-java-sdk-7.2.23.jar!/com/qiniu/storage/UploadManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="146" column="36" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
-          <folding>
-            <element signature="e#8082#8083#0" expanded="true" />
-            <element signature="e#8135#8136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/controller/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/util/CosFileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="114">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduCosServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/huaweicloud/esdk-obs-java/3.19.5/esdk-obs-java-3.19.5.jar!/com/obs/services/model/PutObjectResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/huaweicloud/esdk-obs-java/3.19.5/esdk-obs-java-3.19.5.jar!/com/obs/services/ObsClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1046" column="26" selection-start-line="1046" selection-start-column="11" selection-end-line="1046" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/model/OssType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/oss/aliyun-sdk-oss/2.8.3/aliyun-sdk-oss-2.8.3.jar!/com/aliyun/oss/model/PutObjectResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/oss/aliyun-sdk-oss/2.8.3/aliyun-sdk-oss-2.8.3.jar!/com/aliyun/oss/OSSClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="377" column="19" lean-forward="true" selection-start-line="377" selection-start-column="19" selection-end-line="377" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.5.7/cos_api-5.5.7.jar!/com/qcloud/cos/model/AbstractPutObjectRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.5.7/cos_api-5.5.7.jar!/com/qcloud/cos/model/PutObjectRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.5.7/cos_api-5.5.7.jar!/com/qcloud/cos/model/PutObjectResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.5.7/cos_api-5.5.7.jar!/com/qcloud/cos/COSClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="736" column="21" selection-start-line="736" selection-start-column="21" selection-end-line="736" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/FileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/src/main/java/cn/kcyf/tools/pay/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/src/main/java/cn/kcyf/tools/pay/model/PayType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/TencentCosConfig.java">
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/src/main/java/cn/kcyf/tools/pay/demo/dao/ApyAccountRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/QiniuOSSConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/OssServiceFactory.java">
+    <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/src/main/java/cn/kcyf/tools/es/EsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/MultipartConfig.java">
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/pay-wx-youdian.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/src/main/java/cn/kcyf/tools/pay/wx/youdian/api/WxYouDianPayService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/HuaweiObsConfig.java">
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/src/main/java/cn/kcyf/tools/pay/wx/youdian/bean/WxYoudianPayMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/BaiduBosConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/config/AliyunOSSConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/AliyunOssServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/BaiduBosServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/HuaweiObsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/NginxServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/QiniuOssServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/src/main/java/cn/kcyf/tools/oss/service/impl/TencentCosServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/pom.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.sms/pom.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+    <entry file="file://$PROJECT_DIR$/develop.commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pom.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/pom.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-paypal/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <folding>
+              <element signature="e#0#394#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-ali/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-fuiou/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-payoneer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-paypal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-union/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-wx-youdian/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay-yiji/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pay.ali/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/develop.security/pom.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.security/security.spring/pom.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.security/security.shiro/pom.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/pom.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop.orm/orm.solr/pom.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.orm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.orm/orm.solr/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/develop.orm/orm.mybatis/pom.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/develop.orm/orm.jpa/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="-29">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.commons/commons.web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.commons/commons.utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.commons/commons.http/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.commons/commons.basic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.commons/commons.constant/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/develop.orm/orm.es/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="-266">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.security/security.shiro/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.security/security.spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.oss/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.pay/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.sms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.tools/tools.ueditor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -998,6 +975,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>pay-demo:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1044,12 +1022,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>oss|tools</last-edited>
+          <last-edited>security</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

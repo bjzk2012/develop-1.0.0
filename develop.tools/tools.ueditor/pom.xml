@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>tools.ueditor</artifactId>
+    <artifactId>develop.tools.ueditor</artifactId>
 
     <name>Develop Tools Ueditor</name>
     <description>Ueditor的工具类</description>
@@ -17,7 +17,7 @@
     <dependencies>
         <dependency>
             <groupId>cn.kcyf</groupId>
-            <artifactId>commons.web</artifactId>
+            <artifactId>develop.commons.web</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>
