@@ -10,6 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/develop.commons/develop.commons.http/develop.commons.http.iml" filepath="$PROJECT_DIR$/develop.commons/develop.commons.http/develop.commons.http.iml" />
       <module fileurl="file://$PROJECT_DIR$/develop.commons/develop.commons.utils/develop.commons.utils.iml" filepath="$PROJECT_DIR$/develop.commons/develop.commons.utils/develop.commons.utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/develop.commons/develop.commons.web/develop.commons.web.iml" filepath="$PROJECT_DIR$/develop.commons/develop.commons.web/develop.commons.web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.monitor/develop.monitor.iml" filepath="$PROJECT_DIR$/develop.monitor/develop.monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.monitor/develop.monitor.admin/develop.monitor.admin.iml" filepath="$PROJECT_DIR$/develop.monitor/develop.monitor.admin/develop.monitor.admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/develop.monitor/develop.monitor.zipkin/develop.monitor.zipkin.iml" filepath="$PROJECT_DIR$/develop.monitor/develop.monitor.zipkin/develop.monitor.zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/develop.orm/develop.orm.iml" filepath="$PROJECT_DIR$/develop.orm/develop.orm.iml" />
       <module fileurl="file://$PROJECT_DIR$/develop.orm/develop.orm.es/develop.orm.es.iml" filepath="$PROJECT_DIR$/develop.orm/develop.orm.es/develop.orm.es.iml" />
       <module fileurl="file://$PROJECT_DIR$/develop.orm/develop.orm.jpa/develop.orm.jpa.iml" filepath="$PROJECT_DIR$/develop.orm/develop.orm.jpa/develop.orm.jpa.iml" />

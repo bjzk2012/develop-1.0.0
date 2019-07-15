@@ -11,6 +11,7 @@
         <module>develop.tools</module>
         <module>develop.orm</module>
         <module>develop.security</module>
+        <module>develop.monitor</module>
     </modules>
     <packaging>pom</packaging>
 
