@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/develop.commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/develop.commons/develop.commons.basic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/develop.commons/develop.commons.constant" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/develop.commons/develop.commons.core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/develop.commons/develop.commons.http" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/develop.commons/develop.commons.utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/develop.commons/develop.commons.web" charset="UTF-8" />

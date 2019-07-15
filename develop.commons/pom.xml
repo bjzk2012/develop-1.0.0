@@ -15,10 +15,10 @@
         <module>develop.commons.web</module>
         <module>develop.commons.http</module>
         <module>develop.commons.basic</module>
+        <module>develop.commons.core</module>
     </modules>
     <artifactId>develop.commons</artifactId>
 
     <name>Develop Commons</name>
     <description>公共包</description>
-
 </project>
