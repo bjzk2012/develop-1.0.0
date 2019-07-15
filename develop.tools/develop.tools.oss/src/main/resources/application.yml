@@ -1,27 +1,26 @@
 oss:
   aliyun:
-    access-key: LTAIiM3MZASlCyDE
-    accessKeySecret: 2RBB3xBpOsU8Dfgv75i03CW1Q6wGsz
-    endpoint: oss-cn-beijing.aliyuncs.com
-    bucketName: platform-wx
-    domain: https://platform-wx.oss-cn-beijing.aliyuncs.com
-
+    access-key: xxx
+    accessKeySecret: xxx
+    endpoint: xxx
+    bucketName: xxx
+    domain: xxx
   qiniu:
-    access-key: j8lWlajTA7JC2h3lfKRmoP7TlgR9nHPyiYLsItP_
-    accessKeySecret: lqSnqS6DXxMknd1F5zMDmufXHX7Mutp7BeSCCE3E
-    endpoint: http://pugech0l5.bkt.clouddn.com
-    bucketName: aaa
+    access-key: xxx
+    accessKeySecret: xxx
+    endpoint: xxx
+    bucketName: xxx
   tencent:
-    access-key: AKIDIzEKEzc3KWZWJwtnaM5q162sW5iC6Cdx
-    accessKeySecret: HNev4gAIF9g6NLE4iTSIUYTGuPK7a0Fq
-    ap: ap-beijing
-    bucketName: platform-wx-1256984181
-    domain: https://platform-wx-1256984181.cos.ap-beijing.myqcloud.com
+    access-key: xxx
+    accessKeySecret: xxx
+    ap: xxx
+    bucketName: xxx
+    domain: xxx
   baidu:
-    access-key: b95db8fe898949e680c5e177526c2c98
-    accessKeySecret: 2f88d8a3a29a4c549f7b07f51f3aaa9c
-    bucketName: platform-wx
-    domain: https://platform-wx.cdn.bcebos.com
+    access-key: xxx
+    accessKeySecret: xxx
+    bucketName: xxx
+    domain: xxx
   huawei:
     access-key: xxx
     accessKeySecret: xxx
