@@ -2,72 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f85d6ad0-c472-4423-b4c5-7ec06f285a88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/develop.monitor/develop.monitor.kibana/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/develop.monitor/develop.monitor.zipkin/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_linecorp_armeria_armeria_0_83_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_linecorp_armeria_armeria_spring_boot_actuator_autoconfigure_0_83_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_linecorp_armeria_armeria_spring_boot_actuator_starter_0_83_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_linecorp_armeria_armeria_spring_boot_autoconfigure_0_83_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_linecorp_armeria_armeria_zipkin_0_83_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_moshi_moshi_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_logging_interceptor_3_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_4_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_4_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_registry_prometheus_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_haproxy_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_2_0_23_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_34_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_common_0_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_6_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_2_8_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_collector_kafka_2_12_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_metrics_prometheus_2_12_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_storage_elasticsearch_http_2_8_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_ui_2_12_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_server_2_12_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_storage_elasticsearch_http_2_8_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_ui_2_12_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_12_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_collector_2_12_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_collector_kafka_2_12_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_lens_2_12_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_storage_elasticsearch_2_8_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.monitor/develop.monitor.admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.monitor/develop.monitor.admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.monitor/develop.monitor.zipkin/develop.monitor.zipkin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.monitor/develop.monitor.zipkin/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.monitor/develop.monitor.zipkin/src/main/java/cn/kcyf/montior/zipkin/ZipkinApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.monitor/develop.monitor.zipkin/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop.monitor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/develop.monitor/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,6 +30,158 @@
     <ignored path="$PROJECT_DIR$/develop.monitor/target/" />
     <ignored path="$PROJECT_DIR$/develop.monitor/develop.monitor.admin/target/" />
     <ignored path="$PROJECT_DIR$/develop.monitor/develop.monitor.zipkin/target/" />
+    <ignored path="develop.commons/develop.commons.basic/target/maven-archiver/pom.properties" />
+    <ignored path="develop.commons/develop.commons.basic/target/develop.commons.basic-1.0.0.jar" />
+    <ignored path="develop.commons/develop.commons.constant/target/maven-archiver/pom.properties" />
+    <ignored path="develop.commons/develop.commons.constant/target/develop.commons.constant-1.0.0.jar" />
+    <ignored path="develop.commons/develop.commons.core/target/classes/META-INF/MANIFEST.MF" />
+    <ignored path="develop.commons/develop.commons.core/target/develop.commons.core-1.0.0.jar" />
+    <ignored path="develop.commons/develop.commons.http/target/classes/cn/kcyf/commons/http/enumerate/DataType.class" />
+    <ignored path="develop.commons/develop.commons.http/target/classes/cn/kcyf/commons/http/enumerate/RequestMethod.class" />
+    <ignored path="develop.commons/develop.commons.http/target/classes/cn/kcyf/commons/http/SimpleClient$1.class" />
+    <ignored path="develop.commons/develop.commons.http/target/classes/cn/kcyf/commons/http/SimpleClient.class" />
+    <ignored path="develop.commons/develop.commons.http/target/classes/cn/kcyf/commons/http/TApi.class" />
+    <ignored path="develop.commons/develop.commons.http/target/classes/cn/kcyf/commons/http/TUtil$1.class" />
+    <ignored path="develop.commons/develop.commons.http/target/classes/cn/kcyf/commons/http/TUtil.class" />
+    <ignored path="develop.commons/develop.commons.http/target/maven-archiver/pom.properties" />
+    <ignored path="develop.commons/develop.commons.http/target/develop.commons.http-1.0.0.jar" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/security/BASE64Decoder.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/security/BASE64Encoder.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/security/CEFormatException.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/security/CEStreamExhausted.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/security/CharacterDecoder.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/security/CharacterEncoder.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/security/SecurityUtils.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/zxing/BufferedImageLuminanceSource.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/zxing/ZXingCodeUtils.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/zxing/ZXingLogoConfig.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/ArrayUtils.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/BeanUtils.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/CharUtils.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/DateUtils.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/EmailUtils$Email_Autherticator.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/EmailUtils.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/LunarUtils.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/MobileUtils.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/RandomUtils.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/ZipperUtils$FileEntry.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/classes/cn/kcyf/commons/utils/ZipperUtils.class" />
+    <ignored path="develop.commons/develop.commons.utils/target/maven-archiver/pom.properties" />
+    <ignored path="develop.commons/develop.commons.utils/target/develop.commons.utils-1.0.0.jar" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/captcha/JcaptchaServlet.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/session/cache/EhcacheSessionCache.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/session/cache/SessionCache.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/session/id/SessionIdGenerator.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/session/id/UUIDSessionIdGenerator.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/session/CacheSessionProvider.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/session/HttpSessionProvider.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/session/SessionProvider.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/CookieUtils.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/KeepSessionServlet.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/ProcessTimeFilter.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/RealPathResolver.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/RequestUtils.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/ResponseUtils.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/Servlets.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/SpringContextHolder.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/URLHelper$PageInfo.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/URLHelper.class" />
+    <ignored path="develop.commons/develop.commons.web/target/classes/cn/kcyf/commons/web/UserAgentUtils.class" />
+    <ignored path="develop.commons/develop.commons.web/target/maven-archiver/pom.properties" />
+    <ignored path="develop.commons/develop.commons.web/target/develop.commons.web-1.0.0.jar" />
+    <ignored path="develop.monitor/develop.monitor.admin/target/classes/cn/kcyf/monitor/admin/MonitorApplication.class" />
+    <ignored path="develop.monitor/develop.monitor.admin/target/classes/application.yml" />
+    <ignored path="develop.orm/develop.orm.es/target/classes/cn/kcyf/tools/es/models/Book.class" />
+    <ignored path="develop.orm/develop.orm.es/target/classes/cn/kcyf/tools/es/repository/BookRepository.class" />
+    <ignored path="develop.orm/develop.orm.es/target/classes/application.yml" />
+    <ignored path="develop.orm/develop.orm.es/target/maven-archiver/pom.properties" />
+    <ignored path="develop.orm/develop.orm.es/target/develop.orm.es-1.0.0.jar" />
+    <ignored path="develop.orm/develop.orm.jpa/target/classes/cn/kcyf/orm/jpa/entity/IdDomain.class" />
+    <ignored path="develop.orm/develop.orm.jpa/target/classes/cn/kcyf/orm/jpa/entity/TableDomain.class" />
+    <ignored path="develop.orm/develop.orm.jpa/target/classes/application.yml" />
+    <ignored path="develop.orm/develop.orm.jpa/target/maven-archiver/pom.properties" />
+    <ignored path="develop.orm/develop.orm.jpa/target/develop.orm.jpa-1.0.0.jar" />
+    <ignored path="develop.orm/develop.orm.mybatis/target/classes/cn/kcyf/orm/mybatis/entity/IdDomain.class" />
+    <ignored path="develop.orm/develop.orm.mybatis/target/classes/cn/kcyf/orm/mybatis/entity/TableDomain.class" />
+    <ignored path="develop.orm/develop.orm.mybatis/target/classes/application.yml" />
+    <ignored path="develop.orm/develop.orm.mybatis/target/maven-archiver/pom.properties" />
+    <ignored path="develop.orm/develop.orm.mybatis/target/develop.orm.mybatis-1.0.0.jar" />
+    <ignored path="develop.orm/develop.orm.solr/target/classes/cn/kcyf/tools/solr/models/BasicSolrContent.class" />
+    <ignored path="develop.orm/develop.orm.solr/target/classes/cn/kcyf/tools/solr/models/SolrContent.class" />
+    <ignored path="develop.orm/develop.orm.solr/target/classes/application.yml" />
+    <ignored path="develop.orm/develop.orm.solr/target/maven-archiver/pom.properties" />
+    <ignored path="develop.orm/develop.orm.solr/target/develop.orm.solr-1.0.0.jar" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/cache/SpringCacheManagerWrapper$SpringCacheWrapper.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/cache/SpringCacheManagerWrapper.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/credentials/RetryLimitHashedCredentialsMatcher.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/domain/OAuth2Token.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/domain/ShiroUser.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/filter/DbFormAuthFilter.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/filter/OAuth2AuthFilter.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/filter/Oauth2LogoutFilter.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/filter/SingleSignLogoutFilter.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/filter/UserFilter.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/realm/db/DbRealm.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/realm/oauth2/OAuth2Realm.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/realm/BasicRealm.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/service/ShiroService.class" />
+    <ignored path="develop.security/develop.security.shiro/target/classes/cn/kcyf/security/util/AjaxUtils.class" />
+    <ignored path="develop.security/develop.security.shiro/target/maven-archiver/pom.properties" />
+    <ignored path="develop.security/develop.security.shiro/target/develop.security.shiro-1.0.0.jar" />
+    <ignored path="develop.security/develop.security.spring/target/maven-archiver/pom.properties" />
+    <ignored path="develop.security/develop.security.spring/target/develop.security.spring-1.0.0.jar" />
+    <ignored path="develop.tools/develop.tools.kafka/target/classes/cn/kcyf/tools/kafka/config/KafkaConsumerConfig.class" />
+    <ignored path="develop.tools/develop.tools.kafka/target/classes/cn/kcyf/tools/kafka/config/KafkaProducerConfig.class" />
+    <ignored path="develop.tools/develop.tools.kafka/target/classes/cn/kcyf/tools/kafka/listener/DefaultListener.class" />
+    <ignored path="develop.tools/develop.tools.kafka/target/classes/cn/kcyf/tools/kafka/KafkaApplication.class" />
+    <ignored path="develop.tools/develop.tools.kafka/target/classes/application.yml" />
+    <ignored path="develop.tools/develop.tools.kafka/target/maven-archiver/pom.properties" />
+    <ignored path="develop.tools/develop.tools.kafka/target/develop.tools.kafka-1.0.0.jar" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/config/AliyunOSSConfig.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/config/BaiduBosConfig.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/config/HuaweiObsConfig.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/config/MultipartConfig.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/config/OssServiceFactory.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/config/QiniuOSSConfig.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/config/TencentCosConfig.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/model/OssType.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/service/impl/AliyunOssServiceImpl.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/service/impl/BaiduBosServiceImpl.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/service/impl/HuaweiObsServiceImpl.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/service/impl/NginxServiceImpl.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/service/impl/QiniuOssServiceImpl.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/service/impl/TencentCosServiceImpl.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/cn/kcyf/tools/oss/service/FileService.class" />
+    <ignored path="develop.tools/develop.tools.oss/target/classes/application.yml" />
+    <ignored path="develop.tools/develop.tools.oss/target/maven-archiver/pom.properties" />
+    <ignored path="develop.tools/develop.tools.oss/target/develop.tools.oss-1.0.0.jar" />
+    <ignored path="develop.tools/develop.tools.pay/target/maven-archiver/pom.properties" />
+    <ignored path="develop.tools/develop.tools.pay/target/develop.tools.pay-1.0.0.jar" />
+    <ignored path="develop.tools/develop.tools.sms/target/classes/cn/kcyf/tools/sms/aliyun/AliSMSTemplate.class" />
+    <ignored path="develop.tools/develop.tools.sms/target/classes/cn/kcyf/tools/sms/aliyun/AliSMSUtils.class" />
+    <ignored path="develop.tools/develop.tools.sms/target/classes/cn/kcyf/tools/sms/ipyy/IpyySMSUtils.class" />
+    <ignored path="develop.tools/develop.tools.sms/target/classes/cn/kcyf/tools/sms/zucp/ZucpSMSUtils.class" />
+    <ignored path="develop.tools/develop.tools.sms/target/maven-archiver/pom.properties" />
+    <ignored path="develop.tools/develop.tools.sms/target/develop.tools.sms-1.0.0.jar" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/ActionMap$1.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/ActionMap.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/ActionState.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/AppInfo$1.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/AppInfo.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/BaseState.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/FileType$1.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/FileType.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/MIMEType$1.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/MIMEType.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/MultiState.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/define/State.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/upload/BinaryUploader.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/upload/StorageManager.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/Encoder.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/classes/cn/kcyf/tools/ueditor/PathFormat.class" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/maven-archiver/pom.properties" />
+    <ignored path="develop.tools/develop.tools.ueditor/target/develop.tools.ueditor-1.0.0.jar" />
+    <ignored path="./" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,16 +198,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop.monitor/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="text-editor">
@@ -198,7 +275,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/develop.monitor/develop.monitor.zipkin/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -206,6 +283,24 @@
                 <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -243,7 +338,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/develop.tools/develop.tools.pay/src/main/java/cn/kcyf/tools/pay/modules/weixinpay/util/PayCommonUtil.java" />
         <option value="$PROJECT_DIR$/develop.tools/develop.tools.pay/src/main/java/cn/kcyf/tools/pay/modules/weixinpay/util/qrCodeUtil.java" />
         <option value="$PROJECT_DIR$/develop.tools/develop.tools.pay/src/main/java/cn/kcyf/tools/pay/modules/weixinpay/util/XMLUtil.java" />
         <option value="$PROJECT_DIR$/develop.tools/develop.tools.pay/src/main/resources/acp_sdk.properties" />
@@ -294,6 +388,7 @@
         <option value="$PROJECT_DIR$/develop.monitor/develop.monitor.zipkin/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/develop.monitor/develop.monitor.admin/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -326,9 +421,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="-207" />
+    <option name="y" value="123" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -367,7 +462,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/develop.monitor/develop.monitor.zipkin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../platform_developing-1.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -376,20 +471,20 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.tools\develop.tools.pay\src\main\resources" />
-      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.tools\develop.tools.pay\src\main\webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.kcyf.tools.pay.common.config" />
-      <recent name="cn.kcyf.tools.pay" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.monitor\develop.monitor.zipkin" />
       <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.monitor\develop.monitor.zipkin\src\main\resources" />
       <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.monitor\develop.monitor.admin\src\main\resources" />
       <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.orm\develop.orm.mybatis\src\main\resources" />
       <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.orm\develop.orm.jpa\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.kcyf.tools.pay.common.config" />
+      <recent name="cn.kcyf.tools.pay" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.tools\develop.tools.pay\src\main\resources" />
+      <recent name="E:\work\idea-workspace\developer\develop-1.0.0\develop.tools\develop.tools.pay\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -445,7 +540,7 @@
       <workItem from="1563153108241" duration="7466000" />
       <workItem from="1563161885695" duration="14391000" />
       <workItem from="1563239054965" duration="11430000" />
-      <workItem from="1563264591213" duration="496000" />
+      <workItem from="1563264591213" duration="1305000" />
     </task>
     <task id="LOCAL-00001" summary="调整了模块ID">
       <created>1562902556149</created>
@@ -489,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563183609755</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加了kibana和zikpin的README.md">
+      <created>1563265129042</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563265129042</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46446000" />
+    <option name="totallyTimeSpent" value="47255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,6 +608,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22121535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -626,7 +729,8 @@
     <MESSAGE value="调整了模块ID" />
     <MESSAGE value="调整了整体的依赖版本，解决了大部分依赖版本冲突" />
     <MESSAGE value="添加了spring boot Admin 和 Zipkin监控" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="添加了kibana和zikpin的README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了kibana和zikpin的README.md" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -648,12 +752,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/develop.orm/develop.orm.es/src/main/java/cn/kcyf/tools/es/controller/BookController.java" />
-    <entry file="file://$PROJECT_DIR$/develop.commons/develop.commons.basic/develop.commons.basic.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/develop.tools/develop.tools.sms/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -991,6 +1089,20 @@
             <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
