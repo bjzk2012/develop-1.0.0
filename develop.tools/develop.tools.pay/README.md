@@ -1,4 +1,5 @@
-# Pay
+![](https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=1735a9e7c5fc1e17fdbf8b3772ab913e/d4628535e5dde711c4735d07adefce1b9c166199.jpg)
+- - -
 支付服务：支付宝，微信，银联详细 **代码案例** (除银联支付可以测试以外，支付宝和微信支付测试均需要企业认证，个人无法完成测试)，项目启动前请仔细阅读  **[注意事项](https://git.oschina.net/52itstyle/spring-boot-pay#注意事项)** :fa-hand-o-left:   。
 
 ### 支付宝
@@ -10,7 +11,7 @@
 
 ## 支付文档
 
-地址：http://localhost:8080/spring-boot-pay/swagger-ui.html
+地址：http://localhost:8080/swagger-ui.html
 
 ## 支付宝
 - 电脑支付：https://docs.open.alipay.com/270

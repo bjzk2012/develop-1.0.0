@@ -1,7 +1,7 @@
 ![](https://lucene.apache.org/images/mantle-lucene-solr.png)
 
 - - -
-##一、安装Solr
+## 一、安装Solr
 
 * 创建Solr用户solrcloud
 
@@ -19,7 +19,7 @@
     
     ```tar zxvf  solr-7.6.0.tgz -C ./```
 
-    >注：以下$SOLR_HOME代表/home/solrcloud/solr-7.6.0目录
+    > 注：以下$SOLR_HOME代表/home/solrcloud/solr-7.6.0目录
 
 * 删除默认的core
 
@@ -43,9 +43,9 @@
     
     ```vim core.properties```
     
-    >修改或添加name=document
+    > 修改或添加name=document
 
-    >在document下创建data目录并赋予777权限
+    > 在document下创建data目录并赋予777权限
 
     ```cd document```
     
@@ -53,11 +53,11 @@
     
     ```chmod 777 data```
     
-    >注：红色部分根据自己的core名字命名
+    > 注：红色部分根据自己的core名字命名
     
  * 日志配置
  
-    >在server下创建logs目录并赋予777权限
+    > 在server下创建logs目录并赋予777权限
     
     ```cd $SOLR_HOME/server```
                                
@@ -73,9 +73,9 @@
                          
     ```./solr start```
                     
-##二、导入索引
+## 二、导入索引
 
-   >创建db-data-config.xml放在$SOLR_HOME/server/solr/document/conf下添加
+   > 创建db-data-config.xml放在$SOLR_HOME/server/solr/document/conf下添加
     
 ```
     <dataConfig>
@@ -98,7 +98,7 @@
     </dataConfig>
 ```
     
-   >在$SOLR_HOME/server/solr/document/conf下的solrconfig.xml文件中，查询到requestHandler标签的位置，添加以下代码如图：
+   > 在$SOLR_HOME/server/solr/document/conf下的solrconfig.xml文件中，查询到requestHandler标签的位置，添加以下代码如图：
     
 ```
     <requestHandler name="/dataimport" class="org.apache.solr.handler.dataimport.DataImportHandler">
@@ -108,9 +108,9 @@
     </requestHandler>
 ```
     
-   >将solr-7.6.0\dist下的solr-dataimporthandler-7.6.0.jar和mysql驱动包mysql-connector-java-5.1.25.jar，放入$SOLR_HOME\server\solr-webapp\WEB-INF\lib文件夹下；
+   > 将solr-7.6.0\dist下的solr-dataimporthandler-7.6.0.jar和mysql驱动包mysql-connector-java-5.1.25.jar，放入$SOLR_HOME\server\solr-webapp\WEB-INF\lib文件夹下；
     
-   >重启solr
+   > 重启solr
     
-   >访问http://localhost:8983/solr/#/document/dataimport/dataimport按下图进行数据导入
+   > 访问http://localhost:8983/solr/#/document/dataimport/dataimport按下图进行数据导入
  
