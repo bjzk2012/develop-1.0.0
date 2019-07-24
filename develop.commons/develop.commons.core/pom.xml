@@ -9,7 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>bundle</packaging>
-    <groupId>cn.kcyf.commons</groupId>
     <artifactId>develop.commons.core</artifactId>
     <version>1.0.0</version>
 

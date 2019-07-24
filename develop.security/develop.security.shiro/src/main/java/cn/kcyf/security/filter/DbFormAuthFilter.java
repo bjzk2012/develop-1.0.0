@@ -10,6 +10,7 @@ import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.authc.FormAuthenticationFilter;
 import org.apache.shiro.web.util.WebUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
@@ -22,6 +23,11 @@ import javax.servlet.ServletResponse;
 public class DbFormAuthFilter extends FormAuthenticationFilter {
     @Autowired
     private ShiroService shiroService;
+
+    public void setShiroService(ShiroService shiroService) {
+        this.shiroService = shiroService;
+    }
+
     private int loginType = 0;
 
     protected AuthenticationToken createToken(ServletRequest request, ServletResponse response) {

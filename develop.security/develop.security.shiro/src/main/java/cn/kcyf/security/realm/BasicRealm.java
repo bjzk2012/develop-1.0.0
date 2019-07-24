@@ -6,9 +6,13 @@ import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
+import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.subject.support.DefaultSubjectContext;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.Collection;
 
 /**
  * BasicRealm
@@ -18,6 +22,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class BasicRealm extends AuthorizingRealm {
     @Autowired
     protected ShiroService shiroService;
+
+    public void setShiroService(ShiroService shiroService) {
+        this.shiroService = shiroService;
+    }
 
     /**
      * 获取授权

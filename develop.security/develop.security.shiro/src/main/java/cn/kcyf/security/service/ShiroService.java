@@ -35,7 +35,7 @@ public interface ShiroService {
      * @param username
      * @return
      */
-    JSONObject getMemberInfo(String username);
+    JSONObject getDetail(String username);
 
     /**
      * 根据用户名及用户类型获取用户角色

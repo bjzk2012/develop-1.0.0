@@ -1,5 +1,6 @@
 package cn.kcyf.orm.jpa.entity;
 
+import lombok.Data;
 import lombok.Setter;
 
 import javax.persistence.GeneratedValue;
@@ -15,7 +16,7 @@ import java.io.Serializable;
  *
  */
 @MappedSuperclass
-@Setter
+@Data
 public abstract class IdDomain implements Serializable {
 
     private static final long serialVersionUID = -6604117477081010952L;
@@ -23,11 +24,8 @@ public abstract class IdDomain implements Serializable {
     /**
      * 表主键
      */
-    protected Long id;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Long getId() {
-        return id;
-    }
+    protected Long id;
 }
