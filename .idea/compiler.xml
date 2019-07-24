@@ -6,24 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="develop.orm.solr" />
-        <module name="develop.tools.sms" />
-        <module name="develop.commons.utils" />
-        <module name="develop.security.shiro" />
-        <module name="develop.commons.core" />
-        <module name="develop.tools.ueditor" />
-        <module name="develop.tools.pay" />
-        <module name="develop.security.spring" />
-        <module name="develop.orm.jpa" />
-        <module name="develop.commons.constant" />
-        <module name="develop.tools.kafka" />
-        <module name="develop.orm.es" />
         <module name="develop.commons.basic" />
-        <module name="develop.orm.mybatis" />
-        <module name="develop.commons.web" />
+        <module name="develop.commons.constant" />
+        <module name="develop.commons.core" />
         <module name="develop.commons.http" />
-        <module name="develop.tools.oss" />
+        <module name="develop.commons.utils" />
+        <module name="develop.commons.web" />
         <module name="develop.monitor.admin" />
+        <module name="develop.orm.es" />
+        <module name="develop.orm.jpa" />
+        <module name="develop.orm.mybatis" />
+        <module name="develop.orm.solr" />
+        <module name="develop.security.shiro" />
+        <module name="develop.security.spring" />
+        <module name="develop.tools.kafka" />
+        <module name="develop.tools.oss" />
+        <module name="develop.tools.pay" />
+        <module name="develop.tools.sms" />
+        <module name="develop.tools.ueditor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
