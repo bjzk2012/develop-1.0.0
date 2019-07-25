@@ -8,6 +8,8 @@
       <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="develop.commons.core-1.0.0.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="cn.kcyf.develop.commons.core" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
         <additionalProperties>
           <property key="Bundle-Description" value="打包Commons模块，引用此模块则会将所有Commons模块一并引入" />
+          <property key="EXPORT-PACKAGE" value="mypackage;version=1.0.0" />
+          <property key="IMPORT-PACKAGE" value="*" />
           <property key="Bundle-Name" value="Develop Commons Core" />
         </additionalProperties>
         <additionalJARContents />

@@ -1,0 +1,36 @@
+oss:
+  aliyun:
+    access-key: xxx
+    accessKeySecret: xxx
+    endpoint: xxx
+    bucketName: xxx
+    domain: xxx
+  qiniu:
+    access-key: xxx
+    accessKeySecret: xxx
+    endpoint: xxx
+    bucketName: xxx
+  tencent:
+    access-key: xxx
+    accessKeySecret: xxx
+    ap: xxx
+    bucketName: xxx
+    domain: xxx
+  baidu:
+    access-key: xxx
+    accessKeySecret: xxx
+    bucketName: xxx
+    domain: xxx
+  huawei:
+    access-key: xxx
+    accessKeySecret: xxx
+    endpoint: xxx
+    bucketName: xxx
+  nginx:
+    uploadPath: xxx
+    downPath: xxx
+spring:
+  servlet:
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 100MB

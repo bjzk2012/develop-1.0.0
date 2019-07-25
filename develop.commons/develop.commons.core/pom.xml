@@ -49,6 +49,22 @@
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
                 <extensions>true</extensions>
+                <configuration>
+                    <archive>
+                    </archive>
+                    <instructions>
+                        <Bundle-SymbolicName>${project.groupId}.${project.artifactId}</Bundle-SymbolicName>
+                        <Bundle-Description>${project.description}</Bundle-Description>
+                        <Bundle-Version>${project.version}</Bundle-Version>
+                        <Bundle-Activator></Bundle-Activator>
+                        <EXPORT-PACKAGE>
+                            mypackage;version=1.0.0
+                        </EXPORT-PACKAGE>
+                        <IMPORT-PACKAGE>
+                            *
+                        </IMPORT-PACKAGE>
+                    </instructions>
+                </configuration>
             </plugin>
         </plugins>
     </build>
