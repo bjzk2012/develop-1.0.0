@@ -1,15 +1,20 @@
 package cn.kcyf.orm.jpa.service;
 
+import cn.kcyf.orm.jpa.dao.BasicDao;
 import cn.kcyf.orm.jpa.entity.IdDomain;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.domain.Specification;
 
 import java.io.Serializable;
 import java.util.List;
 
 public interface BasicService<T extends IdDomain, ID extends Serializable> {
-    JpaRepository<T, ID> getRepository();
+    BasicDao<T, ID> getRepository();
 
     List<T> findAll();
+
+    Page<T> findList(Specification<T> specification, Pageable pageable);
 
     T getOne(ID id);
 
@@ -18,6 +23,8 @@ public interface BasicService<T extends IdDomain, ID extends Serializable> {
     T update(T o);
 
     void deletes(List<ID> ids);
+
+    void delete(ID id);
 
     long count();
 }
