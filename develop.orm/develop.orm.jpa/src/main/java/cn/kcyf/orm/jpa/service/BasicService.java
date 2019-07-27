@@ -16,6 +16,8 @@ public interface BasicService<T extends IdDomain, ID extends Serializable> {
 
     Page<T> findList(Specification<T> specification, Pageable pageable);
 
+    List<T> findList(Specification<T> specification);
+
     T getOne(ID id);
 
     T create(T o);
