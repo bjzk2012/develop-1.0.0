@@ -29,4 +29,6 @@ public interface BasicService<T extends IdDomain, ID extends Serializable> {
     void delete(ID id);
 
     long count();
+
+    long countBy(Specification<T> specification);
 }

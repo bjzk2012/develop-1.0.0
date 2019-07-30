@@ -5,7 +5,6 @@ import cn.kcyf.orm.jpa.entity.IdDomain;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
-import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.io.Serializable;
@@ -16,7 +15,7 @@ import java.util.Optional;
  * @author Tom
  * 总业务接口的默认实现，实现了大多数业务通用方法，子类继承就可以使用
  */
-public abstract class AbstractBasicService<T extends IdDomain, ID extends Serializable> implements BasicService<T, ID>{
+public abstract class AbstractBasicService<T extends IdDomain, ID extends Serializable> implements BasicService<T, ID> {
     public abstract BasicDao<T, ID> getRepository();
 
     @Transactional(readOnly = true)
@@ -69,15 +68,22 @@ public abstract class AbstractBasicService<T extends IdDomain, ID extends Serial
             }
         }
     }
+
     @Transactional
     @Override
-    public void delete(ID id){
+    public void delete(ID id) {
         getRepository().deleteById(id);
     }
 
     @Transactional(readOnly = true)
     @Override
     public long count() {
-        return 0;
+        return getRepository().count();
+    }
+
+    @Transactional(readOnly = true)
+    @Override
+    public long countBy(Specification<T> specification) {
+        return getRepository().count(specification);
     }
 }
