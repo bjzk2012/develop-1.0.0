@@ -43,10 +43,14 @@ public class SimpleExpression implements Criterion {
                                  CriteriaBuilder builder) {
         Path expression;
         if (fieldName.contains(".")) {
-            String[] names = StringUtils.split(fieldName, ".");
-            expression = root.get(names[0]);
-            for (int i = 1; i < names.length; i++) {
-                expression = expression.get(names[i]);
+            String[] names = fieldName.split("\\.");
+            expression = root.join(names[0]);
+            for (int i = 0; i < names.length; i++) {
+                if (i > 0 && i < names.length - 1) {
+                    expression = ((Join) expression).join(names[i]);
+                } else if (i != 0) {
+                    expression = expression.get(names[i]);
+                }
             }
         } else {
             expression = root.get(fieldName);
