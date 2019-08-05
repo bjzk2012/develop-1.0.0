@@ -109,14 +109,6 @@
                     <groupId>com.fasterxml.jackson.core</groupId>
                     <artifactId>jackson-annotations</artifactId>
                 </exclusion>
-                <exclusion>
-                    <groupId>net.bytebuddy</groupId>
-                    <artifactId>byte-buddy</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.google.guava</groupId>
-                    <artifactId>guava</artifactId>
-                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -818,12 +810,12 @@
         <repository>
             <id>nexus-releases</id>
             <name>nexus-releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+            <url>http://nexus-server:8082/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
             <name>nexus-snapshots</name>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://nexus-server:8082/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
