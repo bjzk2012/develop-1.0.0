@@ -35,6 +35,15 @@ public abstract class AbstractBasicService<T extends IdDomain, ID extends Serial
     public List<T> findList(Specification<T> specification) {
         return getRepository().findAll(specification);
     }
+    @Transactional(readOnly = true)
+    @Override
+    public T getOne(Specification<T> specification) {
+        Optional<T> optional = getRepository().findOne(specification);
+        if (optional != null) {
+            return optional.get();
+        }
+        return null;
+    }
 
     @Transactional(readOnly = true)
     @Override

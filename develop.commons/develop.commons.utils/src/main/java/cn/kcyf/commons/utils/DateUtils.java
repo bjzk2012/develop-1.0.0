@@ -163,12 +163,13 @@ public class DateUtils {
 
     /**
      * 获取指定日期开始时间
+     *
      * @param time
      * @return
      */
-    public static Date getStartTime(Date time){
+    public static Date getStartTime(Date time) {
         Calendar c = getCalendar(time);
-        c.set(Calendar.HOUR, 0);
+        c.set(Calendar.HOUR_OF_DAY, 0);
         c.set(Calendar.MINUTE, 0);
         c.set(Calendar.SECOND, 0);
         return c.getTime();
@@ -176,14 +177,27 @@ public class DateUtils {
 
     /**
      * 获取指定日期结束时间
+     *
      * @param time
      * @return
      */
-    public static Date getEndTime(Date time){
+    public static Date getEndTime(Date time) {
         Calendar c = getCalendar(time);
-        c.set(Calendar.HOUR, 23);
+        c.set(Calendar.HOUR_OF_DAY, 23);
         c.set(Calendar.MINUTE, 59);
         c.set(Calendar.SECOND, 59);
         return c.getTime();
+    }
+
+    /**
+     * 计算2个时间间隔内的天数
+     *
+     * @param startTime
+     * @param endTime
+     * @return
+     */
+    public static int differentDays(Date startTime, Date endTime) {
+        int days = (int) ((endTime.getTime() - startTime.getTime()) / (1000 * 3600 * 24));
+        return days;
     }
 }

@@ -20,6 +20,8 @@ public interface BasicService<T extends IdDomain, ID extends Serializable> {
 
     T getOne(ID id);
 
+    T getOne(Specification<T> specification);
+
     T create(T o);
 
     T update(T o);
