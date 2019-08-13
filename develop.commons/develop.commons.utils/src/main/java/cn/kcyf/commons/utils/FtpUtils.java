@@ -6,6 +6,7 @@ import org.apache.commons.net.ftp.FTPReply;
 import org.apache.commons.net.ftp.FTPSClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 
 import java.io.*;
 import java.net.MalformedURLException;
@@ -15,18 +16,22 @@ public class FtpUtils {
     /**
      * ftp服务器地址
      */
+    @Value("${ftp.host}")
     public String host = "192.168.1.142";
     /**
      * ftp服务器端口号默认为21
      */
+    @Value("${ftp.port}")
     public Integer port = 21;
     /**
      * ftp登录账号
      */
+    @Value("${ftp.username}")
     public String username = "ftpuser";
     /**
      * ftp登录密码
      */
+    @Value("${ftp.password}")
     public String password = "ftpuser";
 
     public FTPClient ftpClient = null;
