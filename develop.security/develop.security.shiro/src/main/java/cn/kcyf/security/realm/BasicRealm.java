@@ -35,12 +35,12 @@ public class BasicRealm extends AuthorizingRealm {
      */
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
-        ShiroUser user = (ShiroUser) principals.getPrimaryPrincipal();
+        ShiroUser shiroUser = (ShiroUser) principals.getPrimaryPrincipal();
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
         // 设置当前用户角色
-        authorizationInfo.setRoles(shiroService.getRoles(user.getUsername()));
+        authorizationInfo.setRoles(shiroUser.getRoles());
         // 设置当前用户权限
-        authorizationInfo.setStringPermissions(shiroService.getPermissions(user.getUsername()));
+        authorizationInfo.setStringPermissions(shiroUser.getPermissions());
         return authorizationInfo;
     }
 

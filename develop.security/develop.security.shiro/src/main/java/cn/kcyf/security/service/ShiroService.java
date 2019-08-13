@@ -17,60 +17,29 @@ public interface ShiroService {
     /**
      * 根据用户名及用户类型查找用户
      *
-     * @param username
+     * @param account
      * @return
      */
-    ShiroUser getUser(String username);
-
-    /**
-     * 根据用户名及用户类型查找用户详细信息
-     *
-     * @param username
-     * @return
-     */
-    Object getUserInfo(String username);
-
-    /**
-     * 获取用户详细信息
-     * @param username
-     * @return
-     */
-    JSONObject getDetail(String username);
-
-    /**
-     * 根据用户名及用户类型获取用户角色
-     *
-     * @param username
-     * @return
-     */
-    Set<String> getRoles(String username);
-
-    /**
-     * 根据用户名及用户类型获取用户权限
-     *
-     * @param username
-     * @return
-     */
-    Set<String> getPermissions(String username);
+    ShiroUser getUser(String account);
 
     /**
      * 更新登录明细
      *
-     * @param loginId
-     * @param loginName
-     * @param loginIp
-     * @param loginType
+     * @param id
+     * @param account
+     * @param ip
+     * @param type
      * @param success
      * @return
      */
-    ShiroUser loginLogger(Long loginId, String loginName, String loginIp, int loginType, boolean success);
+    ShiroUser loginLogger(Long id, String account, String ip, int type, boolean success);
 
     /**
      * 检查用户
      *
-     * @param user
+     * @param detail
      * @return
      */
-    ShiroUser checkUser(JSONObject user);
+    ShiroUser checkUser(JSONObject detail);
 
 }

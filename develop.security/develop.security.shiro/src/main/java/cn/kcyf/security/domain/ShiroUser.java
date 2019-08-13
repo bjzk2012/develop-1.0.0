@@ -1,15 +1,19 @@
 package cn.kcyf.security.domain;
 
-import java.io.Serializable;
+import com.alibaba.fastjson.JSONObject;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+import java.util.Set;
 
 /**
  * Shiro的用户对象
  *
  * @author Tom
  */
-public class ShiroUser implements Serializable {
-
-    private static final long serialVersionUID = 5326619124248054593L;
+@Data
+@AllArgsConstructor
+public class ShiroUser {
 
     /**
      * 用户ID
@@ -19,7 +23,7 @@ public class ShiroUser implements Serializable {
     /**
      * 用户名
      */
-    protected String username;
+    protected String account;
 
     /**
      * 密码
@@ -37,72 +41,17 @@ public class ShiroUser implements Serializable {
     protected boolean locked;
 
     /**
-     * 成功跳转地址
+     * 角色列表
      */
-    protected String successUrl;
-
-    public ShiroUser(Long id, String username, String password, String credentialsSalt, Boolean locked, String successUrl) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.credentialsSalt = credentialsSalt;
-        this.locked = locked;
-        this.successUrl = successUrl;
-    }
+    private Set<String> roles;
 
     /**
-     * 本函数输出将作为默认的<shiro:principal/>输出.
+     * 权限列表
      */
-    @Override
-    public String toString() {
-        return username;
-    }
+    private Set<String> permissions;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getCredentialsSalt() {
-        return credentialsSalt;
-    }
-
-    public void setCredentialsSalt(String credentialsSalt) {
-        this.credentialsSalt = credentialsSalt;
-    }
-
-    public boolean isLocked() {
-        return locked;
-    }
-
-    public void setLocked(boolean locked) {
-        this.locked = locked;
-    }
-
-    public String getSuccessUrl() {
-        return successUrl;
-    }
-
-    public void setSuccessUrl(String successUrl) {
-        this.successUrl = successUrl;
-    }
+    /**
+     * 用户详情信息
+     */
+    private JSONObject detail;
 }

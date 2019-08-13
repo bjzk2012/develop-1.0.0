@@ -62,7 +62,7 @@ public class DbFormAuthFilter extends FormAuthenticationFilter {
 
     protected boolean onLoginSuccess(AuthenticationToken token, Subject subject, ServletRequest request, ServletResponse response) throws Exception {
         ShiroUser shiroUser = (ShiroUser) subject.getPrincipal();
-        shiroService.loginLogger(shiroUser.getId(), shiroUser.getUsername(), Servlets.getRemoteAddr(WebUtils.toHttp(request)), loginType, true);
+        shiroService.loginLogger(shiroUser.getId(), shiroUser.getAccount(), Servlets.getRemoteAddr(WebUtils.toHttp(request)), loginType, true);
         WebUtils.redirectToSavedRequest(request, response, getSuccessUrl());
         return false;
     }
