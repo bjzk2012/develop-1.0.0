@@ -36,6 +36,11 @@
             <version>3.6</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>cn.kcyf</groupId>
+            <artifactId>develop.commons.http</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
 
