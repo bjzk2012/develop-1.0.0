@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 
 /**
  */
-public class ZucpSMSUtils {
+public class SmsUtils {
 
     private static final String serviceURL = "http://sdk2.zucp.net:8060/webservice.asmx";
 

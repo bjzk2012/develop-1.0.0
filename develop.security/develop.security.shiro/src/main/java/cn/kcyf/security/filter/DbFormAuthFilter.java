@@ -48,7 +48,7 @@ public class DbFormAuthFilter extends FormAuthenticationFilter {
             try {
                 String kaptcha = request.getParameter("kaptcha");
                 Object kaptcha_session = WebUtils.toHttp(request).getSession().getAttribute("KAPTCHA_SESSION_KEY");
-                if (kaptcha_session != null && !kaptcha_session.equals(kaptcha)){
+                if (kaptcha_session != null && !kaptcha.equalsIgnoreCase(kaptcha_session.toString())){
                     return this.onLoginFailure(token, new KaptchaException("Kaptcha is bad!"), request, response);
                 }
                 Subject subject = this.getSubject(request, response);

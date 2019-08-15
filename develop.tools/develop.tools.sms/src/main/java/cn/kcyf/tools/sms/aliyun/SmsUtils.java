@@ -14,10 +14,10 @@ import org.slf4j.LoggerFactory;
  *
  * @author 张奎
  */
-public final class AliSMSUtils {
-    private static final Logger logger = LoggerFactory.getLogger(AliSMSUtils.class);
+public final class SmsUtils {
+    private static final Logger logger = LoggerFactory.getLogger(SmsUtils.class);
 
-    private AliSMSUtils() {
+    private SmsUtils() {
     }
 
     private static final String URL = "http://gw.api.taobao.com/router/rest";
@@ -51,7 +51,7 @@ public final class AliSMSUtils {
         }
     }
 
-    public static void main(String[] args) {
-        send("15529000562", "张奎", "", "{'code':'123123'}", AliSMSTemplate.CODE);
-    }
+//    public static void main(String[] args) {
+//        send("15529000562", "张奎", "", "{'code':'123123'}", AliSMSTemplate.CODE);
+//    }
 }
