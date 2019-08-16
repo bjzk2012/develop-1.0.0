@@ -1,28 +1,26 @@
 package cn.kcyf.tools.ueditor.upload;
 
-import cn.kcyf.commons.web.RealPathResolver;
 import cn.kcyf.tools.ueditor.PathFormat;
+import cn.kcyf.tools.ueditor.UeditorConfigKit;
 import cn.kcyf.tools.ueditor.define.AppInfo;
 import cn.kcyf.tools.ueditor.define.BaseState;
 import cn.kcyf.tools.ueditor.define.FileType;
 import cn.kcyf.tools.ueditor.define.State;
-import org.apache.commons.fileupload.FileItemIterator;
-import org.apache.commons.fileupload.FileItemStream;
-import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.support.StandardMultipartHttpServletRequest;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
-public class BinaryUploader {
+public final class BinaryUploader {
 
-	public static final State save(HttpServletRequest request, RealPathResolver realPathResolver) {
-		FileItemStream fileStream = null;
-		boolean isAjaxUpload = request.getHeader( "X_Requested_With" ) != null;
+	public static final State save(HttpServletRequest request, Map<String, Object> conf) {
+		boolean isAjaxUpload = request.getHeader("X_Requested_With") != null;
 
 		if (!ServletFileUpload.isMultipartContent(request)) {
 			return new BaseState(false, AppInfo.NOT_MULTIPART_CONTENT);
@@ -30,54 +28,47 @@ public class BinaryUploader {
 
 		ServletFileUpload upload = new ServletFileUpload(new DiskFileItemFactory());
 
-        if ( isAjaxUpload ) {
-            upload.setHeaderEncoding( "UTF-8" );
-        }
+		if (isAjaxUpload) {
+			upload.setHeaderEncoding("UTF-8");
+		}
 
 		try {
-			FileItemIterator iterator = upload.getItemIterator(request);
+            MultipartFile file = ((StandardMultipartHttpServletRequest) request).getFile(conf.get("fieldName").toString());
 
-			while (iterator.hasNext()) {
-				fileStream = iterator.next();
-
-				if (!fileStream.isFormField())
-					break;
-				fileStream = null;
+			if (file == null) {
+				return new BaseState(false, 7);
 			}
 
-			if (fileStream == null) {
-				return new BaseState(false, AppInfo.NOTFOUND_UPLOAD_DATA);
-			}
-
-			String savePath = "/u/cms/www/";
-			String originFileName = fileStream.getName();
+			String savePath = (String) conf.get("savePath");
+			String originFileName = file.getOriginalFilename();
 			String suffix = FileType.getSuffixByFilename(originFileName);
 
-			originFileName = originFileName.substring(0,
-					originFileName.length() - suffix.length());
+			originFileName = originFileName.substring(0, originFileName.length() - suffix.length());
 			savePath = savePath + suffix;
+
+			long maxSize = ((Long) conf.get("maxSize")).longValue();
+
+			if (!validType(suffix, (String[]) conf.get("allowFiles"))) {
+				return new BaseState(false, AppInfo.NOT_ALLOW_FILE_TYPE);
+			}
 
 			savePath = PathFormat.parse(savePath, originFileName);
 
-			String physicalPath =realPathResolver.get(savePath);
+			String rootPath = (String) conf.get("rootPath");
 
-			InputStream is = fileStream.openStream();
-			State storageState = StorageManager.saveFileByInputStream(is,
-					physicalPath);
-			is.close();
+			State storageState = UeditorConfigKit.getFileManager().saveFile(file.getInputStream(), rootPath, savePath, maxSize);
 
 			if (storageState.isSuccess()) {
-				storageState.putInfo("url", PathFormat.format(savePath));
+				storageState.putInfo("url", UeditorConfigKit.getFileManager().getBasePath() + PathFormat.format(savePath));
 				storageState.putInfo("type", suffix);
 				storageState.putInfo("original", originFileName + suffix);
 			}
 
 			return storageState;
-		} catch (FileUploadException e) {
-			return new BaseState(false, AppInfo.PARSE_REQUEST_ERROR);
 		} catch (IOException e) {
+			return new BaseState(false, AppInfo.IO_ERROR);
 		}
-		return new BaseState(false, AppInfo.IO_ERROR);
+
 	}
 
 	private static boolean validType(String type, String[] allowTypes) {

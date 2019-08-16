@@ -19,6 +19,11 @@ public class FtpUtils {
     @Value("${ftp.host}")
     public String host = "192.168.1.142";
     /**
+     * ftp访问地址
+     */
+    @Value("${ftp.domain}")
+    public String domain = "http://www.file-server.com/";
+    /**
      * ftp服务器端口号默认为21
      */
     @Value("${ftp.port}")
@@ -33,6 +38,12 @@ public class FtpUtils {
      */
     @Value("${ftp.password}")
     public String password = "ftpuser";
+    /**
+     * 路径
+     */
+    @Value("${ftp.path}")
+    public String path = "bsc/";
+
 
     public FTPClient ftpClient = null;
 

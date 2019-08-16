@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Set;
 
 /**
@@ -13,7 +14,7 @@ import java.util.Set;
  */
 @Data
 @AllArgsConstructor
-public class ShiroUser {
+public class ShiroUser implements Serializable {
 
     /**
      * 用户ID
