@@ -4,6 +4,7 @@ import cn.kcyf.orm.jpa.dao.BasicDao;
 import cn.kcyf.orm.jpa.entity.IdDomain;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -35,6 +36,13 @@ public abstract class AbstractBasicService<T extends IdDomain, ID extends Serial
     public List<T> findList(Specification<T> specification) {
         return getRepository().findAll(specification);
     }
+
+    @Transactional(readOnly = true)
+    @Override
+    public List<T> findList(Specification<T> specification, Sort sort) {
+        return getRepository().findAll(specification, sort);
+    }
+
     @Transactional(readOnly = true)
     @Override
     public T getOne(Specification<T> specification) {
