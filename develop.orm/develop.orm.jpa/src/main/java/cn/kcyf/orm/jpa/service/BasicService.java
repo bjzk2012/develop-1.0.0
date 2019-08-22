@@ -9,6 +9,7 @@ import org.springframework.data.jpa.domain.Specification;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Map;
 
 public interface BasicService<T extends IdDomain, ID extends Serializable> {
     BasicDao<T, ID> getRepository();
@@ -36,4 +37,16 @@ public interface BasicService<T extends IdDomain, ID extends Serializable> {
     long count();
 
     long countBy(Specification<T> specification);
+
+    Page<T> findListBySql(String sql, Map<String, Object> params, Pageable pageable, Class<T> clazz);
+
+    List<T> findListBySql(String sql, Map<String, Object> params, Class<T> clazz);
+
+    Page<T> findListByHql(String hql, Map<String, Object> params, Pageable pageable);
+
+    List<T> findListByHql(String hql, Map<String, Object> params);
+
+    long countBySql(String sql, Map<String, Object> params);
+
+    long countByHql(String hql, Map<String, Object> params);
 }
