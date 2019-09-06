@@ -2,6 +2,7 @@ package cn.kcyf.security.realm.oauth2;
 
 import cn.kcyf.security.domain.OAuth2Token;
 import cn.kcyf.security.domain.ShiroUser;
+import cn.kcyf.security.enumerate.LoginType;
 import cn.kcyf.security.realm.BasicRealm;
 import cn.kcyf.security.service.ShiroService;
 import com.alibaba.fastjson.JSONObject;
@@ -51,7 +52,7 @@ public class OAuth2Realm extends BasicRealm {
 
     @Override
     public boolean supports(AuthenticationToken token) {
-        return token instanceof OAuth2Token;//表示此Realm只支持OAuth2Token类型
+        return token instanceof OAuth2Token;
     }
 
     @Override
@@ -83,7 +84,7 @@ public class OAuth2Realm extends BasicRealm {
             OAuthResourceResponse profileResponse = oAuthClient.resource(profileRequest, OAuth.HttpMethod.GET, OAuthResourceResponse.class);
             String body = profileResponse.getBody();
             JSONObject result = JSONObject.parseObject(body);
-            return shiroService.checkUser(result);
+            return shiroService.checkUser(result, LoginType.OAUTH2);
         } catch (Exception e) {
             throw new RuntimeException("Oauth认证异常", e);
         }

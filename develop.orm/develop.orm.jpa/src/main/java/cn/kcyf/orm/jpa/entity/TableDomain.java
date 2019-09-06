@@ -23,13 +23,13 @@ public abstract class TableDomain extends IdDomain {
     /**
      * 创建人用户编号
      */
-    @Column(name = "create_user_id", nullable = false, updatable = false)
+    @Column(name = "create_user_id", updatable = false)
     @JSONField(serialize = false, deserialize = false)
     protected Long createUserId;
     /**
      * 创建人用户名称
      */
-    @Column(name = "create_user_name", nullable = false, updatable = false)
+    @Column(name = "create_user_name", updatable = false)
     @JSONField(serialize = false, deserialize = false)
     protected String createUserName;
     /**

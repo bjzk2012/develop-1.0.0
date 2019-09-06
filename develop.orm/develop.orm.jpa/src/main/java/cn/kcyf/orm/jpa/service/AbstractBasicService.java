@@ -56,7 +56,7 @@ public abstract class AbstractBasicService<T extends IdDomain, ID extends Serial
     @Override
     public T getOne(Specification<T> specification) {
         Optional<T> optional = getRepository().findOne(specification);
-        if (optional != null) {
+        if (optional != null && optional.isPresent()) {
             return optional.get();
         }
         return null;

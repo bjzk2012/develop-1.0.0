@@ -4,6 +4,7 @@ import cn.kcyf.commons.http.SimpleClient;
 import cn.kcyf.commons.http.TApi;
 import cn.kcyf.commons.http.enumerate.DataType;
 import cn.kcyf.commons.http.enumerate.RequestMethod;
+import cn.kcyf.commons.utils.security.SecurityUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.util.StringUtils;
 
@@ -34,7 +35,7 @@ public class SmsUtils {
         content = signature + content;
         paramsMap.put("userid", "");
         paramsMap.put("account", account);
-        paramsMap.put("password", password);
+        paramsMap.put("password", SecurityUtils.md5Encoder(password).toUpperCase());
         paramsMap.put("action", "send");       // 固定值
         paramsMap.put("mobile", mobile);       // 接收手机号码, "," 分隔
         paramsMap.put("content", content);     // 短信内容

@@ -1,6 +1,7 @@
 package cn.kcyf.security.service;
 
 import cn.kcyf.security.domain.ShiroUser;
+import cn.kcyf.security.enumerate.LoginType;
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.stereotype.Service;
 
@@ -40,6 +41,6 @@ public interface ShiroService {
      * @param detail
      * @return
      */
-    ShiroUser checkUser(JSONObject detail);
+    ShiroUser checkUser(JSONObject detail, LoginType type);
 
 }

@@ -4,6 +4,7 @@ import cn.kcyf.commons.http.SimpleClient;
 import cn.kcyf.commons.http.TApi;
 import cn.kcyf.commons.http.enumerate.DataType;
 import cn.kcyf.commons.http.enumerate.RequestMethod;
+import cn.kcyf.commons.utils.security.SecurityUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.util.StringUtils;
 
@@ -11,13 +12,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SmsUtils {
-    private final String DEFAULT_SMS_URL = "http://sz.ipyy.com/smsJson.aspx";
+    private static final String DEFAULT_SMS_URL = "http://dx110.ipyy.net/smsJson.aspx";
     @Value("${sms.ipyy.signature}")
-    private String signature = "【军民融合标准资源共享平台】";
+    private String signature = "";
     @Value("${sms.ipyy.account}")
-    private String account = "hyszzd00468";
+    private String account = "XPT30095";
     @Value("${sms.ipyy.password}")
-    private String password = "123456";
+    private String password = "XPT3009595";
 
 
     /**
@@ -31,10 +32,10 @@ public class SmsUtils {
             throw new IllegalArgumentException();
         }
         Map<String, String> paramsMap = new HashMap<>();
-        content = signature + content;
+        content += signature;
         paramsMap.put("userid", "");
         paramsMap.put("account", account);
-        paramsMap.put("password", password);
+        paramsMap.put("password", SecurityUtils.md5Encoder(password).toUpperCase());
         paramsMap.put("action", "send");       // 固定值
         paramsMap.put("mobile", mobile);       // 接收手机号码, "," 分隔
         paramsMap.put("content", content);     // 短信内容
