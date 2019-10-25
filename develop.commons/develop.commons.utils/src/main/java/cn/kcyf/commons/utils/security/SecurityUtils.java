@@ -2,6 +2,7 @@ package cn.kcyf.commons.utils.security;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.DESKeySpec;
 import javax.crypto.spec.DESedeKeySpec;
 import javax.crypto.spec.IvParameterSpec;
 import java.security.Key;
@@ -93,6 +94,36 @@ public class SecurityUtils {
     }
 
     /**
+     * DES加密
+     *
+     * @param plainText 目标字符串
+     * @param secretKey 加密密钥
+     * @param IV        向量
+     * @param ishex     是否转16进制
+     * @return 加密后的字符串
+     * @throws Exception 抛出异常
+     */
+    private static String desEncode(String plainText, String secretKey, String IV, boolean ishex) {
+        try {
+            DESKeySpec spec = new DESKeySpec(secretKey.getBytes());
+            SecretKeyFactory keyfactory = SecretKeyFactory.getInstance("DES");
+            Key deskey = keyfactory.generateSecret(spec);
+            Cipher cipher = Cipher.getInstance("DES/CBC/PKCS5Padding");
+            IvParameterSpec ips = new IvParameterSpec(IV.getBytes());
+            cipher.init(Cipher.ENCRYPT_MODE, deskey, ips);
+            byte[] encryptData = cipher.doFinal(plainText.getBytes(encoding));
+            String des = new String(new BASE64Encoder().encode(encryptData));
+            if (ishex) {
+                return byte2hex(des.getBytes(encoding)).toUpperCase();
+            }
+            return des;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    /**
      * 3DES加密
      *
      * @param plainText 目标字符串
@@ -114,6 +145,30 @@ public class SecurityUtils {
      */
     public static String des3EncodeHex(String plainText, String secretKey, String IV) {
         return des3Encode(plainText, secretKey, IV, true);
+    }
+
+    /**
+     * DES加密
+     *
+     * @param plainText 目标字符串
+     * @param secretKey 加密密钥
+     * @param IV        向量
+     * @return 加密后的字符串
+     */
+    public static String desEncode(String plainText, String secretKey, String IV) {
+        return desEncode(plainText, secretKey, IV, false);
+    }
+
+    /**
+     * DES加密
+     *
+     * @param plainText 目标字符串
+     * @param secretKey 加密密钥
+     * @param IV        向量
+     * @return 加密后的字符串
+     */
+    public static String desEncodeHex(String plainText, String secretKey, String IV) {
+        return desEncode(plainText, secretKey, IV, true);
     }
 
     /**
@@ -147,6 +202,36 @@ public class SecurityUtils {
     }
 
     /**
+     * DES解密
+     *
+     * @param encryptText 目标字符串
+     * @param secretKey   解密密钥
+     * @param IV          向量
+     * @param ishex       是否转16进制
+     * @return
+     * @throws Exception
+     */
+    private static String desDecode(String encryptText, String secretKey, String IV, boolean ishex) {
+        try {
+            DESKeySpec spec = new DESKeySpec(secretKey.getBytes());
+            SecretKeyFactory keyfactory = SecretKeyFactory.getInstance("DES");
+            Key deskey = keyfactory.generateSecret(spec);
+            Cipher cipher = Cipher.getInstance("DES/CBC/PKCS5Padding");
+            IvParameterSpec ips = new IvParameterSpec(IV.getBytes());
+            cipher.init(Cipher.DECRYPT_MODE, deskey, ips);
+            String des = encryptText;
+            if (ishex) {
+                des = new String(hex2byte(encryptText), encoding);
+            }
+            byte[] bytes = new BASE64Decoder().decodeBuffer(des);
+            byte[] decryptData = cipher.doFinal(bytes);
+            return new String(decryptData, encoding);
+        } catch (Exception e) {
+            return "";
+        }
+    }
+
+    /**
      * 3DES解密
      *
      * @param encryptText 目标字符串
@@ -157,6 +242,32 @@ public class SecurityUtils {
      */
     public static String des3Decode(String encryptText, String secretKey, String IV) {
         return des3Decode(encryptText, secretKey, IV, false);
+    }
+
+    /**
+     * DES解密
+     *
+     * @param encryptText 目标字符串
+     * @param secretKey   解密密钥
+     * @param IV          向量
+     * @return 解密后的字符串
+     * @throws Exception 抛出异常
+     */
+    public static String desDecodeHex(String encryptText, String secretKey, String IV) {
+        return desDecode(encryptText, secretKey, IV, true);
+    }
+
+    /**
+     * 3DES解密
+     *
+     * @param encryptText 目标字符串
+     * @param secretKey   解密密钥
+     * @param IV          向量
+     * @return 解密后的字符串
+     * @throws Exception 抛出异常
+     */
+    public static String desDecode(String encryptText, String secretKey, String IV) {
+        return desDecode(encryptText, secretKey, IV, false);
     }
 
     /**

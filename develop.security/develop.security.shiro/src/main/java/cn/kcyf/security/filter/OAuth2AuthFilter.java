@@ -30,7 +30,7 @@ public class OAuth2AuthFilter extends AuthenticatingFilter {
     protected AuthenticationToken createToken(ServletRequest request, ServletResponse response) throws Exception {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         String code = httpRequest.getParameter(authcCodeParam);
-        return new OAuth2Token(code, httpRequest.getRequestURL().toString().replace(httpRequest.getRequestURI(),""));
+        return new OAuth2Token(code, httpRequest.getRequestURL().toString().replace(httpRequest.getRequestURI(),""), "");
     }
 
     @Override
