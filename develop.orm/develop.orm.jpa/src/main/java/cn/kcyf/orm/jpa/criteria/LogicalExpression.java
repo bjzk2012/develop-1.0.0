@@ -8,12 +8,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 类似 A && B && (C || D)时使用
  * @author Tom
  */
 public class LogicalExpression implements Criterion {
 
-    private Criterion[] criterion;  // 逻辑表达式中包含的表达式
-    private Operator operator;      //计算符
+    private Criterion[] criterion;
+    private Operator operator;
 
     public LogicalExpression(Criterion[] criterions, Operator operator) {
         this.criterion = criterions;
@@ -23,7 +24,7 @@ public class LogicalExpression implements Criterion {
     @Override
     public Predicate toPredicate(Root<?> root, CriteriaQuery<?> query,
                                  CriteriaBuilder builder) {
-        List<Predicate> predicates = new ArrayList<Predicate>();
+        List<Predicate> predicates = new ArrayList<>();
         for (Criterion aCriterion : this.criterion) {
             predicates.add(aCriterion.toPredicate(root, query, builder));
         }

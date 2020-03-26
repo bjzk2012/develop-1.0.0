@@ -17,7 +17,7 @@ public abstract class TableDomain extends IdDomain {
     /**
      * 创建时间
      */
-    @Column(name = "create_time", nullable = false, updatable = false)
+    @Column(name = "create_time", nullable = false, updatable = false, columnDefinition = "TIMESTAMP default CURRENT_TIMESTAMP")
     @Temporal(TemporalType.TIMESTAMP)
     protected Date createTime;
     /**
@@ -35,7 +35,7 @@ public abstract class TableDomain extends IdDomain {
     /**
      * 最后更新时间
      */
-    @Column(name = "last_update_time", insertable = false)
+    @Column(name = "last_update_time", insertable = false, columnDefinition = "TIMESTAMP")
     @JSONField(serialize = false, deserialize = false)
     @Temporal(TemporalType.TIMESTAMP)
     protected Date lastUpdateTime;

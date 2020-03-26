@@ -13,7 +13,6 @@ import java.util.UUID;
 /**
  * 腾讯云
  */
-@Service("tencentCosServiceImpl")
 public class TencentCosServiceImpl implements FileService {
     @Value("${oss.tencent.bucketName:xxx}")
     private String bucketName;

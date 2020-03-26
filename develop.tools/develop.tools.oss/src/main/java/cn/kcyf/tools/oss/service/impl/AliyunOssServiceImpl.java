@@ -13,7 +13,6 @@ import java.util.UUID;
 /**
  * 阿里云
  */
-@Service("aliyunOssServiceImpl")
 public class AliyunOssServiceImpl implements FileService {
 
     @Autowired

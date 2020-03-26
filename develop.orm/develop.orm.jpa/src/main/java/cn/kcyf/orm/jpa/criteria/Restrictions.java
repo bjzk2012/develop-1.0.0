@@ -77,6 +77,19 @@ public class Restrictions {
         return new SimpleExpression(fieldName, value, Criterion.Operator.RIGHTLIKE);
     }
 
+    /**
+     * 列不为空
+     *
+     * @param fieldName
+     * @return
+     */
+    public static SimpleExpression notLike(String fieldName, Object value) {
+        if (value == null) {
+            return null;
+        }
+        return new SimpleExpression(fieldName, value, Criterion.Operator.NOTLIKE);
+    }
+
 
     /**
      * 大于
@@ -163,17 +176,11 @@ public class Restrictions {
      * @return
      */
     @SuppressWarnings("rawtypes")
-    public static LogicalExpression in(String fieldName, Collection value) {
-        if ((value == null || value.isEmpty())) {
-            return null;
+    public static SimpleExpression in(String fieldName, Collection value) {
+        if (value == null || value.isEmpty()) {
+            return new SimpleExpression("id", -1L, Criterion.Operator.EQ);
         }
-        SimpleExpression[] ses = new SimpleExpression[value.size()];
-        int i = 0;
-        for (Object obj : value) {
-            ses[i] = new SimpleExpression(fieldName, obj, Criterion.Operator.EQ);
-            i++;
-        }
-        return new LogicalExpression(ses, Criterion.Operator.OR);
+        return new SimpleExpression(fieldName, value, Criterion.Operator.IN);
     }
 
 
@@ -185,17 +192,11 @@ public class Restrictions {
      * @return
      */
     @SuppressWarnings("rawtypes")
-    public static LogicalExpression notIn(String fieldName, Collection value) {
-        if ((value == null || value.isEmpty())) {
-            return null;
+    public static SimpleExpression notIn(String fieldName, Collection value) {
+        if (value == null || value.isEmpty()) {
+            return new SimpleExpression("id", Criterion.Operator.ISNOTNULL);
         }
-        SimpleExpression[] ses = new SimpleExpression[value.size()];
-        int i = 0;
-        for (Object obj : value) {
-            ses[i] = new SimpleExpression(fieldName, obj, Criterion.Operator.NE);
-            i++;
-        }
-        return new LogicalExpression(ses, Criterion.Operator.AND);
+        return new SimpleExpression(fieldName, value, Criterion.Operator.NOTIN);
     }
 
     /**
@@ -204,10 +205,8 @@ public class Restrictions {
      * @param fieldName
      * @return
      */
-    public static LogicalExpression isNull(String fieldName) {
-        SimpleExpression[] ses = new SimpleExpression[1];
-        ses[0] = new SimpleExpression(fieldName, Criterion.Operator.ISNULL);
-        return new LogicalExpression(ses, Criterion.Operator.ISNULL);
+    public static SimpleExpression isNull(String fieldName) {
+        return new SimpleExpression(fieldName, Criterion.Operator.ISNULL);
     }
 
     /**
@@ -216,22 +215,7 @@ public class Restrictions {
      * @param fieldName
      * @return
      */
-    public static LogicalExpression isNotNull(String fieldName) {
-        SimpleExpression[] ses = new SimpleExpression[1];
-        ses[0] = new SimpleExpression(fieldName, Criterion.Operator.ISNOTNULL);
-        return new LogicalExpression(ses, Criterion.Operator.ISNOTNULL);
-    }
-
-    /**
-     * 列不为空
-     *
-     * @param fieldName
-     * @return
-     */
-    public static SimpleExpression notLike(String fieldName, Object value) {
-        if (value == null) {
-            return null;
-        }
-        return new SimpleExpression(fieldName, value, Criterion.Operator.NOTLIKE);
+    public static SimpleExpression isNotNull(String fieldName) {
+        return new SimpleExpression(fieldName, Criterion.Operator.ISNOTNULL);
     }
 }

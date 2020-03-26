@@ -13,7 +13,6 @@ import java.util.UUID;
 /**
  * 百度云
  */
-@Service("baiduBosServiceImpl")
 public class BaiduBosServiceImpl implements FileService {
     @Value("${oss.baidu.bucketName:xxx}")
     public String bucketName;

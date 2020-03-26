@@ -1,6 +1,5 @@
 package cn.kcyf.security.realm.dingtalk;
 
-import cn.kcyf.security.domain.OAuth2Token;
 import cn.kcyf.security.domain.OpenIdToken;
 import cn.kcyf.security.domain.ShiroUser;
 import cn.kcyf.security.enumerate.LoginType;

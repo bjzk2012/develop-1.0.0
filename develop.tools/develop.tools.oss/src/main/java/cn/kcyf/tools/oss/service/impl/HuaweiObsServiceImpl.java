@@ -15,7 +15,6 @@ import java.util.UUID;
  * 华为云
  * TODO 未测试
  */
-@Service("huaweiObsServiceImpl")
 public class HuaweiObsServiceImpl implements FileService {
     @Value("${oss.huawei.bucketName:xxx}")
     public String bucketName;

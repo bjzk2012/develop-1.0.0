@@ -1,18 +1,14 @@
 package cn.kcyf.orm.jpa.criteria;
 
-import org.springframework.util.StringUtils;
-
 import javax.persistence.criteria.*;
+import java.util.Collection;
 
 /**
  * @author Tom
  */
 public class SimpleExpression implements Criterion {
-    // 属性名
     private String fieldName;
-    // 对应值
     private Object value;
-    // 计算符
     private Operator operator;
 
     protected SimpleExpression(String fieldName, Object value, Operator operator) {
@@ -42,6 +38,8 @@ public class SimpleExpression implements Criterion {
     public Predicate toPredicate(Root<?> root, CriteriaQuery<?> query,
                                  CriteriaBuilder builder) {
         Path expression;
+        Collection values;
+        CriteriaBuilder.In<Object> in = null;
         if (fieldName.contains(".")) {
             String[] names = fieldName.split("\\.");
             expression = root.join(names[0], JoinType.LEFT);
@@ -55,7 +53,13 @@ public class SimpleExpression implements Criterion {
         } else {
             expression = root.get(fieldName);
         }
-
+        if (operator.equals(Operator.IN) || operator.equals(Operator.NOTIN)) {
+            values = (Collection) value;
+            in = builder.in(expression);
+            for (Object object : values) {
+                in.value(object);
+            }
+        }
         switch (operator) {
             case EQ:
                 return builder.equal(expression, value);
@@ -67,6 +71,8 @@ public class SimpleExpression implements Criterion {
                 return builder.like((Expression<String>) expression, "%" + value);
             case RIGHTLIKE:
                 return builder.like((Expression<String>) expression, value + "%");
+            case NOTLIKE:
+                return builder.notLike(expression, "%" + value + "%");
             case LT:
                 return builder.lessThan(expression, (Comparable) value);
             case GT:
@@ -79,8 +85,10 @@ public class SimpleExpression implements Criterion {
                 return builder.isNull(expression);
             case ISNOTNULL:
                 return builder.isNotNull(expression);
-            case NOTLIKE:
-                return builder.notLike(expression, "%" + value + "%");
+            case IN:
+                return in;
+            case NOTIN:
+                return builder.not(in);
             default:
                 return null;
         }

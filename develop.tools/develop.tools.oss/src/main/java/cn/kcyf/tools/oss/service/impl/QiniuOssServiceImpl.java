@@ -16,7 +16,6 @@ import org.springframework.web.multipart.MultipartFile;
 /**
  * 七牛云
  */
-@Service("qiniuOssServiceImpl")
 public class QiniuOssServiceImpl implements FileService, InitializingBean {
 
 	@Autowired

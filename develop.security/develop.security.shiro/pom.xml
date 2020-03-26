@@ -48,5 +48,14 @@
             <groupId>com.github.penggle</groupId>
             <artifactId>kaptcha</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.kcyf</groupId>
+            <artifactId>develop.commons.utils</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>

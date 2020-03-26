@@ -14,7 +14,6 @@ import java.util.UUID;
  * nginx
  * TODO 未测试
  */
-@Service("nginxServiceImpl")
 public class NginxServiceImpl implements FileService {
     @Value("${oss.nginx.uploadPath:xxx}")
     private String uploadPath;
